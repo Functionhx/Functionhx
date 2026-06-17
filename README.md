@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1>Yuchen Fan</h1>
+<h1>FAN YUCHEN</h1>
 
 <p><strong>Builder of practical tools, native macOS apps, robotics systems, and AI-assisted workflows.</strong></p>
 

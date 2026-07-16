@@ -1,6 +1,6 @@
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=210&section=header&text=Hi%20I'm%20Yuchen%20Fan&fontSize=58&fontColor=ffffff&fontAlignY=38&desc=Robotics%20%26%20AI%20Systems%20%C2%B7%20Embodied%20AI%20%C2%B7%203D%20Scene%20Intelligence&descSize=18&descAlignY=58&animation=twinkling)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=210&section=header&text=Hi%20I'm%20Yuchen%20Fan&fontSize=58&fontColor=ffffff&fontAlignY=38&desc=Robotics%20%26amp%3B%20AI%20Systems%20%C2%B7%20Embodied%20AI%20%C2%B7%203D%20Scene%20Intelligence&descSize=18&descAlignY=58&animation=twinkling)
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=21&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=760&lines=%E8%AE%A9%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%9C%8B%E8%A7%81%E3%80%81%E5%AE%9A%E4%BD%8D%E3%80%81%E7%90%86%E8%A7%A3%E5%B9%B6%E8%A1%8C%E5%8A%A8;Building+systems+that+perceive%2C+reason%2C+and+move;3DGS+%C2%B7+Embodied+AI+%C2%B7+Autonomous+Systems+%C2%B7+Open+Source)](https://git.io/typing-svg)
 

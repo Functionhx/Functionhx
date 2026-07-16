@@ -2,7 +2,9 @@
 
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=210&section=header&text=Hi%20I'm%20Yuchen%20Fan&fontSize=58&fontColor=ffffff&fontAlignY=38&desc=Robotics%20%26amp%3B%20AI%20Systems%20%C2%B7%20Embodied%20AI%20%C2%B7%203D%20Scene%20Intelligence&descSize=18&descAlignY=58&animation=twinkling)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=21&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=760&lines=%E8%AE%A9%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%9C%8B%E8%A7%81%E3%80%81%E5%AE%9A%E4%BD%8D%E3%80%81%E7%90%86%E8%A7%A3%E5%B9%B6%E8%A1%8C%E5%8A%A8;Building+systems+that+perceive%2C+reason%2C+and+move;3DGS+%C2%B7+Embodied+AI+%C2%B7+Autonomous+Systems+%C2%B7+Open+Source)](https://git.io/typing-svg)
+English · [简体中文](https://github.com/Functionhx/Functionhx/blob/zh-CN/README.md)
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=21&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=760&lines=Building+robots+that+see%2C+localize%2C+understand%2C+and+act;Building+systems+that+perceive%2C+reason%2C+and+move;3DGS+%C2%B7+Embodied+AI+%C2%B7+Autonomous+Systems+%C2%B7+Open+Source)](https://git.io/typing-svg)
 
 [![Followers](https://img.shields.io/github/followers/Functionhx?style=flat-square&logo=github&label=Followers&color=blue)](https://github.com/Functionhx?tab=followers)
 [![Stars](https://img.shields.io/github/stars/Functionhx?affiliations=OWNER&style=flat-square&logo=github&label=Stars&color=yellow)](https://github.com/Functionhx?tab=repositories)
@@ -15,21 +17,21 @@
 
 ---
 
-## 关于我
+## About Me
 
-我是北京理工大学机器人工程本科生，关注机器人、自动驾驶、具身智能、三维场景表示与 AI 系统工程。
+I am an undergraduate Robotics Engineering student at Beijing Institute of Technology, working at the intersection of robotics, autonomous driving, embodied AI, 3D scene representation, and AI systems engineering.
 
-我喜欢把研究原型推进到真实系统：从感知、状态估计与导航，到推理部署、通信架构、测试验证和故障恢复。相比“只让 Demo 跑起来”，我更关心它能否稳定运行、能否被复现，以及遇到异常时如何恢复。
+I enjoy turning research prototypes into real systems—from perception, state estimation, and navigation to inference deployment, communication architecture, testing, and fault recovery. Beyond getting a demo to run, I care about reliability, reproducibility, and graceful recovery when things go wrong.
 
-- **正在做** — 3DGS 视觉定位、实例导航与可编辑道路场景生成
-- **正在玩** — ROS 2、Nav2、Habitat、VLA/VLN、世界模型与 AI Agent
-- **正在沉淀** — 机器人实机系统、AI 推理部署、自动驾驶工程与开源贡献
-- **想聊聊** — 具身智能、三维场景智能、机器人中间件、AI Infra 与科研自动化
-- **一些结果** — 20 个上游已合入 PR；Kaggle Bronze Medal（Solo，Top 9.9%）
+- **Currently building** — 3DGS visual localization, instance navigation, and editable road-scene generation
+- **Exploring** — ROS 2, Nav2, Habitat, VLA/VLN, world models, and AI agents
+- **Engineering** — reliable real-robot systems, AI inference deployment, autonomous-driving infrastructure, and open-source software
+- **Let's talk about** — embodied AI, 3D scene intelligence, robotics middleware, AI infrastructure, and research automation
+- **Highlights** — 20 merged upstream PRs; Kaggle Bronze Medal (solo, top 9.9%)
 
 ---
 
-## 代表项目
+## Featured Projects
 
 <table>
 <tr>
@@ -39,7 +41,7 @@
 
 [![Stars](https://img.shields.io/github/stars/Functionhx/Batch-LIO?style=social)](https://github.com/Functionhx/Batch-LIO)
 
-Point-LIO 的 batch-wise 扩展，引入窗口内运动去畸变、批量 EKF 更新与并行计算，面向高带宽 LiDAR-Inertial Odometry。
+A batch-wise extension of Point-LIO featuring within-window motion undistortion, batched EKF updates, and parallel computation for high-bandwidth LiDAR-inertial odometry.
 
 `C++` `LiDAR-Inertial Odometry` `EKF` `ROS`
 
@@ -50,7 +52,7 @@ Point-LIO 的 batch-wise 扩展，引入窗口内运动去畸变、批量 EKF �
 
 [![Stars](https://img.shields.io/github/stars/Functionhx/BITFSD-Annotator?style=social)](https://github.com/Functionhx/BITFSD-Annotator)
 
-面向无人方程式点云数据的三维标注与 AI 预标注平台，支持质量门控、OpenPCDet 格式及 TensorRT 推理后端。
+A 3D annotation and AI-assisted pre-labeling platform for Formula Student Driverless point clouds, with quality gates, OpenPCDet export, and a TensorRT inference backend.
 
 `3D Vision` `TensorRT` `Vue` `FastAPI`
 
@@ -64,7 +66,7 @@ Point-LIO 的 batch-wise 扩展，引入窗口内运动去畸变、批量 EKF �
 
 [![Stars](https://img.shields.io/github/stars/Functionhx/SmarkGrasp?style=social)](https://github.com/Functionhx/SmarkGrasp)
 
-移动底盘导航、目标检测、三维抓取点生成与机械臂控制的一体化系统，覆盖从环境感知到自主抓取的完整流程。
+An end-to-end mobile manipulation system integrating base navigation, object detection, 3D grasp-point generation, and arm control—from environmental perception to autonomous grasping.
 
 `Mobile Manipulation` `ROS` `YOLO` `Grasping`
 
@@ -75,7 +77,7 @@ Point-LIO 的 batch-wise 扩展，引入窗口内运动去畸变、批量 EKF �
 
 [![Stars](https://img.shields.io/github/stars/Functionhx/rm_arm_mujoco?style=social)](https://github.com/Functionhx/rm_arm_mujoco)
 
-面向 RoboMaster 机械臂任务的 MuJoCo 仿真与控制实验，探索视觉位姿估计、正逆运动学与自动抓取流程。
+MuJoCo simulation and control experiments for RoboMaster manipulator tasks, exploring visual pose estimation, forward and inverse kinematics, and autonomous grasping.
 
 `MuJoCo` `Robotics` `Kinematics` `Simulation`
 
@@ -87,7 +89,7 @@ Point-LIO 的 batch-wise 扩展，引入窗口内运动去畸变、批量 EKF �
 
 ### [3D Scene Intelligence](https://functionhx.github.io/)
 
-面向实例导航、视觉定位及自动驾驶场景生成的 3DGS、世界模型与可编辑三维场景研究记录。
+Research notes on 3DGS, world models, and editable 3D scenes for instance navigation, visual localization, and autonomous-driving scene generation.
 
 `3DGS` `World Models` `Visual Localization` `Embodied AI`
 
@@ -96,7 +98,7 @@ Point-LIO 的 batch-wise 扩展，引入窗口内运动去畸变、批量 EKF �
 
 ### [Robotics Systems](https://functionhx.github.io/)
 
-宇树 G1 / Go2、RoboMaster 与无人方程式项目集合，覆盖感知、状态估计、导航、通信、推理部署与实机集成。
+A collection of Unitree G1/Go2, RoboMaster, and Formula Student Driverless projects spanning perception, state estimation, navigation, communication, inference deployment, and hardware integration.
 
 `ROS 2` `Nav2` `Autonomous Systems` `Real Robots`
 
@@ -106,23 +108,23 @@ Point-LIO 的 batch-wise 扩展，引入窗口内运动去畸变、批量 EKF �
 
 ---
 
-## 开源贡献
+## Open-Source Contributions
 
-累计向 AI Infra、机器人中间件、开发工具与科学计算项目贡献 **20 个已合入 Pull Request**。
+Contributed **20 merged pull requests** across AI infrastructure, robotics middleware, developer tooling, and scientific computing projects.
 
 | Project | Pull Request | Focus |
 |---|---|---|
-| Hugging Face TRL | [#6348](https://github.com/huggingface/trl/pull/6348) | DPO / KTO 文件处理 |
-| OpenRLHF | [#1261](https://github.com/OpenRLHF/OpenRLHF/pull/1261) | Qwen3.5 与 ZeRO-3 兼容 |
-| vLLM | [#48153](https://github.com/vllm-project/vllm/pull/48153) | MistralLarge3 权重加载 |
-| NVIDIA CCCL | [#9785](https://github.com/NVIDIA/cccl/pull/9785) | 编译器兼容性 |
-| CycloneDDS | [#2425](https://github.com/eclipse-cyclonedds/cyclonedds/pull/2425) | 信号掩码处理 |
+| Hugging Face TRL | [#6348](https://github.com/huggingface/trl/pull/6348) | DPO / KTO file handling |
+| OpenRLHF | [#1261](https://github.com/OpenRLHF/OpenRLHF/pull/1261) | Qwen3.5 and ZeRO-3 compatibility |
+| vLLM | [#48153](https://github.com/vllm-project/vllm/pull/48153) | Mistral Large 3 weight loading |
+| NVIDIA CCCL | [#9785](https://github.com/NVIDIA/cccl/pull/9785) | Compiler compatibility |
+| CycloneDDS | [#2425](https://github.com/eclipse-cyclonedds/cyclonedds/pull/2425) | Signal-mask handling |
 | ROS 2 CLI | [#1257](https://github.com/ros2/ros2cli/pull/1257) | `interface show --no-comments` |
-| ros2_control | [#3454](https://github.com/ros-controls/ros2_control/pull/3454) | `update_rate` 边界处理 |
-| OpenCV | [#29487](https://github.com/opencv/opencv/pull/29487) | 标定文档改进 |
+| ros2_control | [#3454](https://github.com/ros-controls/ros2_control/pull/3454) | `update_rate` boundary handling |
+| OpenCV | [#29487](https://github.com/opencv/opencv/pull/29487) | Calibration documentation |
 
 <details>
-<summary><b>查看全部 20 个已合入 PR</b></summary>
+<summary><b>View all 20 merged PRs</b></summary>
 
 <br>
 
@@ -151,7 +153,7 @@ Point-LIO 的 batch-wise 扩展，引入窗口内运动去畸变、批量 EKF �
 
 ---
 
-## 技术与工具
+## Technologies & Tools
 
 <div align="center">
 
@@ -179,14 +181,14 @@ Point-LIO 的 batch-wise 扩展，引入窗口内运动去畸变、批量 EKF �
 
 ---
 
-## GitHub 数据
+## GitHub Stats
 
 <div align="center">
 
 <table width="100%">
 <tr>
 <td width="50%">
-<img width="100%" src="https://github-readme-stats.vercel.app/api?username=Functionhx&show_icons=true&theme=transparent&hide_border=true&include_all_commits=true&rank_icon=percentile&title_color=58A6FF&text_color=334155&icon_color=8B5CF6" />
+<img width="100%" src="./profile/stats.svg" />
 </td>
 <td width="50%">
 <img width="100%" src="https://streak-stats.demolab.com?user=Functionhx&theme=transparent&hide_border=true&ring=58A6FF&fire=8B5CF6&currStreakLabel=0F766E&sideLabels=334155&dates=64748B&currStreakNum=8B5CF6&sideNums=58A6FF" />
@@ -208,7 +210,7 @@ Point-LIO 的 batch-wise 扩展，引入窗口内运动去畸变、批量 EKF �
 
 <div align="center">
 
-### 如果你也在探索机器人、具身智能、三维场景表示与可靠 AI 系统，欢迎交流
+### If you are exploring robotics, embodied AI, 3D scene representation, or reliable AI systems, let's connect
 
 [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Functionhx)
 [![Website](https://img.shields.io/badge/-Website-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white)](https://functionhx.github.io/)

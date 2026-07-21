@@ -62,45 +62,24 @@ Point-LIO 的 batch-wise 扩展，引入窗口内运动去畸变、批量 EKF �
 <tr>
 <td width="50%" valign="top">
 
-### [SmarkGrasp](https://github.com/Functionhx/SmarkGrasp)
+### [CatchLab](https://github.com/Functionhx/catchlab)
 
-[![Stars](https://img.shields.io/github/stars/Functionhx/SmarkGrasp?style=social)](https://github.com/Functionhx/SmarkGrasp)
+[![Stars](https://img.shields.io/github/stars/Functionhx/catchlab?style=social)](https://github.com/Functionhx/catchlab)
 
-移动底盘导航、目标检测、三维抓取点生成与机械臂控制的一体化系统，覆盖从环境感知到自主抓取的完整流程。
+面向可重复使用运载火箭末端回收的开源仿真与验证框架 —— 覆盖返回飞行、制导导航与控制、塔架与柔性阻拦索捕获动力学，以及 SIL → HIL → 缩比实物的可解释、可复现 sim-to-real 研究平台。
 
-`Mobile Manipulation` `ROS` `YOLO` `Grasping`
-
-</td>
-<td width="50%" valign="top">
-
-### [RM Arm MuJoCo](https://github.com/Functionhx/rm_arm_mujoco)
-
-[![Stars](https://img.shields.io/github/stars/Functionhx/rm_arm_mujoco?style=social)](https://github.com/Functionhx/rm_arm_mujoco)
-
-面向 RoboMaster 机械臂任务的 MuJoCo 仿真与控制实验，探索视觉位姿估计、正逆运动学与自动抓取流程。
-
-`MuJoCo` `Robotics` `Kinematics` `Simulation`
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-### [3D Scene Intelligence](https://functionhx.github.io/)
-
-面向实例导航、视觉定位及自动驾驶场景生成的 3DGS、世界模型与可编辑三维场景研究记录。
-
-`3DGS` `World Models` `Visual Localization` `Embodied AI`
+`Rocket Recovery` `GNC` `Sim-to-Real` `C++20`
 
 </td>
 <td width="50%" valign="top">
 
-### [Robotics Systems](https://functionhx.github.io/)
+### [ActuateX](https://github.com/Functionhx/actuatex)
 
-宇树 G1 / Go2、RoboMaster 与无人方程式项目集合，覆盖感知、状态估计、导航、通信、推理部署与实机集成。
+[![Stars](https://img.shields.io/github/stars/Functionhx/actuatex?style=social)](https://github.com/Functionhx/actuatex)
 
-`ROS 2` `Nav2` `Autonomous Systems` `Real Robots`
+三后端（Isaac Gym / Isaac Lab / MuJoCo）强化学习控制课堂：在一个仿真器里训练策略，再让它在陌生动力学、持续扰动、台阶与另一套物理引擎下自证鲁棒性。
+
+`Reinforcement Learning` `Sim2Sim` `Robot Control` `Isaac Lab`
 
 </td>
 </tr>

@@ -89,44 +89,52 @@ A three-backend (Isaac Gym / Isaac Lab / MuJoCo) reinforcement-learning classroo
 
 ## Open-Source Contributions
 
-Contributed **20 merged pull requests** across AI infrastructure, robotics middleware, developer tooling, and scientific computing projects.
+Contributed **28 merged pull requests** across AI infrastructure, robotics middleware, databases, developer tooling, security tooling, and scientific computing — ordered below by impact.
 
 | Project | Pull Request | Focus |
 |---|---|---|
-| Hugging Face TRL | [#6348](https://github.com/huggingface/trl/pull/6348) | DPO / KTO file handling |
-| OpenRLHF | [#1261](https://github.com/OpenRLHF/OpenRLHF/pull/1261) | Qwen3.5 and ZeRO-3 compatibility |
-| vLLM | [#48153](https://github.com/vllm-project/vllm/pull/48153) | Mistral Large 3 weight loading |
-| NVIDIA CCCL | [#9785](https://github.com/NVIDIA/cccl/pull/9785) | Compiler compatibility |
-| CycloneDDS | [#2425](https://github.com/eclipse-cyclonedds/cyclonedds/pull/2425) | Signal-mask handling |
-| ROS 2 CLI | [#1257](https://github.com/ros2/ros2cli/pull/1257) | `interface show --no-comments` |
-| ros2_control | [#3454](https://github.com/ros-controls/ros2_control/pull/3454) | `update_rate` boundary handling |
-| OpenCV | [#29487](https://github.com/opencv/opencv/pull/29487) | Calibration documentation |
+| vLLM | [#48153](https://github.com/vllm-project/vllm/pull/48153) | Mistral Large 3 → AutoWeightsLoader |
+| OpenCV | [#29487](https://github.com/opencv/opencv/pull/29487) | Calibration docs & projection-matrix fixes |
+| DeepSpeed | [#8154](https://github.com/deepspeedai/DeepSpeed/pull/8154) | Pipeline gradient-scaling fix |
+| Nautilus Trader | [#4443](https://github.com/nautechsystems/nautilus_trader/pull/4443) | Consolidation data-loss fix |
+| ccxt | [#29192](https://github.com/ccxt/ccxt/pull/29192) | Backpack ticker normalization |
+| DuckDB | [#23773](https://github.com/duckdb/duckdb/pull/23773) | VARCHAR→DECIMAL rounding fix |
+| cargo | [#17203](https://github.com/rust-lang/cargo/pull/17203) | Flaky-test race fix |
+| Hugging Face TRL | [#6439](https://github.com/huggingface/trl/pull/6439) | GRPO loss normalization |
 
 <details>
-<summary><b>View all 20 merged PRs</b></summary>
+<summary><b>View all 28 merged PRs (by impact)</b></summary>
 
 <br>
 
-1. [huggingface/trl #6348](https://github.com/huggingface/trl/pull/6348)
-2. [OpenRLHF/OpenRLHF #1261](https://github.com/OpenRLHF/OpenRLHF/pull/1261)
-3. [vllm-project/vllm #48153](https://github.com/vllm-project/vllm/pull/48153)
-4. [opencv/opencv #29487](https://github.com/opencv/opencv/pull/29487)
-5. [NVIDIA/cccl #9785](https://github.com/NVIDIA/cccl/pull/9785)
-6. [ccxt/ccxt #29192](https://github.com/ccxt/ccxt/pull/29192)
+1. [vllm-project/vllm #48153](https://github.com/vllm-project/vllm/pull/48153)
+2. [opencv/opencv #29487](https://github.com/opencv/opencv/pull/29487)
+3. [deepspeedai/DeepSpeed #8154](https://github.com/deepspeedai/DeepSpeed/pull/8154)
+4. [nautechsystems/nautilus_trader #4443](https://github.com/nautechsystems/nautilus_trader/pull/4443)
+5. [ccxt/ccxt #29192](https://github.com/ccxt/ccxt/pull/29192)
+6. [duckdb/duckdb #23773](https://github.com/duckdb/duckdb/pull/23773)
 7. [rust-lang/cargo #17203](https://github.com/rust-lang/cargo/pull/17203)
-8. [rsheftel/pandas_market_calendars #469](https://github.com/rsheftel/pandas_market_calendars/pull/469)
-9. [Unclecheng-li/poc-lab #20](https://github.com/Unclecheng-li/poc-lab/pull/20)
-10. [eclipse-cyclonedds/cyclonedds #2425](https://github.com/eclipse-cyclonedds/cyclonedds/pull/2425)
-11. [duckdb/duckdb #23773](https://github.com/duckdb/duckdb/pull/23773)
-12. [Farama-Foundation/Gymnasium #1618](https://github.com/Farama-Foundation/Gymnasium/pull/1618)
-13. [eclipse-iceoryx/iceoryx2 #1818](https://github.com/eclipse-iceoryx/iceoryx2/pull/1818)
-14. [Unclecheng-li/poc-lab #21](https://github.com/Unclecheng-li/poc-lab/pull/21)
+8. [huggingface/trl #6439](https://github.com/huggingface/trl/pull/6439)
+9. [biomejs/biome #10915](https://github.com/biomejs/biome/pull/10915)
+10. [deepspeedai/DeepSpeed #8144](https://github.com/deepspeedai/DeepSpeed/pull/8144)
+11. [NVIDIA/cccl #9785](https://github.com/NVIDIA/cccl/pull/9785)
+12. [OpenRLHF/OpenRLHF #1261](https://github.com/OpenRLHF/OpenRLHF/pull/1261)
+13. [huggingface/trl #6348](https://github.com/huggingface/trl/pull/6348)
+14. [BishopFox/sliver #2286](https://github.com/BishopFox/sliver/pull/2286)
 15. [vyperlang/vyper #5185](https://github.com/vyperlang/vyper/pull/5185)
-16. [ros2/ros2cli #1257](https://github.com/ros2/ros2cli/pull/1257)
+16. [eclipse-cyclonedds/cyclonedds #2425](https://github.com/eclipse-cyclonedds/cyclonedds/pull/2425)
 17. [ros-controls/ros2_control #3454](https://github.com/ros-controls/ros2_control/pull/3454)
-18. [nautechsystems/nautilus_trader #4443](https://github.com/nautechsystems/nautilus_trader/pull/4443)
-19. [Velocidex/velociraptor #4921](https://github.com/Velocidex/velociraptor/pull/4921)
-20. [biomejs/biome #10915](https://github.com/biomejs/biome/pull/10915)
+18. [Farama-Foundation/Gymnasium #1618](https://github.com/Farama-Foundation/Gymnasium/pull/1618)
+19. [conda/conda #16391](https://github.com/conda/conda/pull/16391)
+20. [Velocidex/velociraptor #4921](https://github.com/Velocidex/velociraptor/pull/4921)
+21. [eclipse-iceoryx/iceoryx2 #1818](https://github.com/eclipse-iceoryx/iceoryx2/pull/1818)
+22. [ros2/ros2cli #1257](https://github.com/ros2/ros2cli/pull/1257)
+23. [fullpage-lab/PatchWing #3](https://github.com/fullpage-lab/PatchWing/pull/3)
+24. [rsheftel/pandas_market_calendars #469](https://github.com/rsheftel/pandas_market_calendars/pull/469)
+25. [ros2/rmw_cyclonedds #591](https://github.com/ros2/rmw_cyclonedds/pull/591)
+26. [fullpage-lab/PatchWing #1](https://github.com/fullpage-lab/PatchWing/pull/1)
+27. [Unclecheng-li/poc-lab #21](https://github.com/Unclecheng-li/poc-lab/pull/21)
+28. [Unclecheng-li/poc-lab #20](https://github.com/Unclecheng-li/poc-lab/pull/20)
 
 </details>
 

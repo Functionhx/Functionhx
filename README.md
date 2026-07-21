@@ -62,45 +62,24 @@ A 3D annotation and AI-assisted pre-labeling platform for Formula Student Driver
 <tr>
 <td width="50%" valign="top">
 
-### [SmarkGrasp](https://github.com/Functionhx/SmarkGrasp)
+### [CatchLab](https://github.com/Functionhx/catchlab)
 
-[![Stars](https://img.shields.io/github/stars/Functionhx/SmarkGrasp?style=social)](https://github.com/Functionhx/SmarkGrasp)
+[![Stars](https://img.shields.io/github/stars/Functionhx/catchlab?style=social)](https://github.com/Functionhx/catchlab)
 
-An end-to-end mobile manipulation system integrating base navigation, object detection, 3D grasp-point generation, and arm control—from environmental perception to autonomous grasping.
+An open simulation and verification framework for reusable-launch-vehicle terminal recovery — return flight, GNC, tower and arrestor-cable catch dynamics, and a SIL → HIL → scaled-experiment path built for explainable, reproducible sim-to-real.
 
-`Mobile Manipulation` `ROS` `YOLO` `Grasping`
-
-</td>
-<td width="50%" valign="top">
-
-### [RM Arm MuJoCo](https://github.com/Functionhx/rm_arm_mujoco)
-
-[![Stars](https://img.shields.io/github/stars/Functionhx/rm_arm_mujoco?style=social)](https://github.com/Functionhx/rm_arm_mujoco)
-
-MuJoCo simulation and control experiments for RoboMaster manipulator tasks, exploring visual pose estimation, forward and inverse kinematics, and autonomous grasping.
-
-`MuJoCo` `Robotics` `Kinematics` `Simulation`
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-### [3D Scene Intelligence](https://functionhx.github.io/)
-
-Research notes on 3DGS, world models, and editable 3D scenes for instance navigation, visual localization, and autonomous-driving scene generation.
-
-`3DGS` `World Models` `Visual Localization` `Embodied AI`
+`Rocket Recovery` `GNC` `Sim-to-Real` `C++20`
 
 </td>
 <td width="50%" valign="top">
 
-### [Robotics Systems](https://functionhx.github.io/)
+### [ActuateX](https://github.com/Functionhx/actuatex)
 
-A collection of Unitree G1/Go2, RoboMaster, and Formula Student Driverless projects spanning perception, state estimation, navigation, communication, inference deployment, and hardware integration.
+[![Stars](https://img.shields.io/github/stars/Functionhx/actuatex?style=social)](https://github.com/Functionhx/actuatex)
 
-`ROS 2` `Nav2` `Autonomous Systems` `Real Robots`
+A three-backend (Isaac Gym / Isaac Lab / MuJoCo) reinforcement-learning classroom for robust locomotion — train a policy in one simulator, then make it prove itself under unfamiliar dynamics, sustained pushes, stairs, and a different physics engine.
+
+`Reinforcement Learning` `Sim2Sim` `Robot Control` `Isaac Lab`
 
 </td>
 </tr>

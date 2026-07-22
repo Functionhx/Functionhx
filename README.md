@@ -89,52 +89,66 @@ A three-backend (Isaac Gym / Isaac Lab / MuJoCo) reinforcement-learning classroo
 
 ## Open-Source Contributions
 
-Contributed **28 merged pull requests** across AI infrastructure, robotics middleware, databases, developer tooling, security tooling, and scientific computing — ordered below by impact.
+Contributed **28 merged pull requests**, grouped below by domain — focused on robotics middleware, embodied AI & RL, AI inference infrastructure, and 3D perception, plus broader engineering work.
 
 | Project | Pull Request | Focus |
 |---|---|---|
 | vLLM | [#48153](https://github.com/vllm-project/vllm/pull/48153) | Mistral Large 3 → AutoWeightsLoader |
-| OpenCV | [#29487](https://github.com/opencv/opencv/pull/29487) | Calibration docs & projection-matrix fixes |
 | DeepSpeed | [#8154](https://github.com/deepspeedai/DeepSpeed/pull/8154) | Pipeline gradient-scaling fix |
-| Nautilus Trader | [#4443](https://github.com/nautechsystems/nautilus_trader/pull/4443) | Consolidation data-loss fix |
-| ccxt | [#29192](https://github.com/ccxt/ccxt/pull/29192) | Backpack ticker normalization |
-| DuckDB | [#23773](https://github.com/duckdb/duckdb/pull/23773) | VARCHAR→DECIMAL rounding fix |
-| cargo | [#17203](https://github.com/rust-lang/cargo/pull/17203) | Flaky-test race fix |
+| ros2_control | [#3454](https://github.com/ros-controls/ros2_control/pull/3454) | `update_rate` modulo-by-zero UB guard |
+| CycloneDDS | [#2425](https://github.com/eclipse-cyclonedds/cyclonedds/pull/2425) | Signal-mask restore on `pthread_create` |
+| OpenRLHF | [#1261](https://github.com/OpenRLHF/OpenRLHF/pull/1261) | Qwen3.5 ZeRO-3 frozen-weight detection |
 | Hugging Face TRL | [#6439](https://github.com/huggingface/trl/pull/6439) | GRPO loss normalization |
+| OpenCV | [#29487](https://github.com/opencv/opencv/pull/29487) | Calibration & projection-matrix fixes |
+| Gymnasium | [#1618](https://github.com/Farama-Foundation/Gymnasium/pull/1618) | `default_camera_config` render fix |
 
 <details>
-<summary><b>View all 28 merged PRs (by impact)</b></summary>
+<summary><b>View all 28 merged PRs (by domain)</b></summary>
 
 <br>
 
-1. [vllm-project/vllm #48153](https://github.com/vllm-project/vllm/pull/48153)
-2. [opencv/opencv #29487](https://github.com/opencv/opencv/pull/29487)
-3. [deepspeedai/DeepSpeed #8154](https://github.com/deepspeedai/DeepSpeed/pull/8154)
-4. [nautechsystems/nautilus_trader #4443](https://github.com/nautechsystems/nautilus_trader/pull/4443)
-5. [ccxt/ccxt #29192](https://github.com/ccxt/ccxt/pull/29192)
-6. [duckdb/duckdb #23773](https://github.com/duckdb/duckdb/pull/23773)
-7. [rust-lang/cargo #17203](https://github.com/rust-lang/cargo/pull/17203)
-8. [huggingface/trl #6439](https://github.com/huggingface/trl/pull/6439)
-9. [biomejs/biome #10915](https://github.com/biomejs/biome/pull/10915)
-10. [deepspeedai/DeepSpeed #8144](https://github.com/deepspeedai/DeepSpeed/pull/8144)
-11. [NVIDIA/cccl #9785](https://github.com/NVIDIA/cccl/pull/9785)
-12. [OpenRLHF/OpenRLHF #1261](https://github.com/OpenRLHF/OpenRLHF/pull/1261)
-13. [huggingface/trl #6348](https://github.com/huggingface/trl/pull/6348)
-14. [BishopFox/sliver #2286](https://github.com/BishopFox/sliver/pull/2286)
-15. [vyperlang/vyper #5185](https://github.com/vyperlang/vyper/pull/5185)
-16. [eclipse-cyclonedds/cyclonedds #2425](https://github.com/eclipse-cyclonedds/cyclonedds/pull/2425)
-17. [ros-controls/ros2_control #3454](https://github.com/ros-controls/ros2_control/pull/3454)
-18. [Farama-Foundation/Gymnasium #1618](https://github.com/Farama-Foundation/Gymnasium/pull/1618)
-19. [conda/conda #16391](https://github.com/conda/conda/pull/16391)
-20. [Velocidex/velociraptor #4921](https://github.com/Velocidex/velociraptor/pull/4921)
-21. [eclipse-iceoryx/iceoryx2 #1818](https://github.com/eclipse-iceoryx/iceoryx2/pull/1818)
-22. [ros2/ros2cli #1257](https://github.com/ros2/ros2cli/pull/1257)
-23. [fullpage-lab/PatchWing #3](https://github.com/fullpage-lab/PatchWing/pull/3)
-24. [rsheftel/pandas_market_calendars #469](https://github.com/rsheftel/pandas_market_calendars/pull/469)
-25. [ros2/rmw_cyclonedds #591](https://github.com/ros2/rmw_cyclonedds/pull/591)
-26. [fullpage-lab/PatchWing #1](https://github.com/fullpage-lab/PatchWing/pull/1)
-27. [Unclecheng-li/poc-lab #21](https://github.com/Unclecheng-li/poc-lab/pull/21)
-28. [Unclecheng-li/poc-lab #20](https://github.com/Unclecheng-li/poc-lab/pull/20)
+**🤖 Robotics & autonomous-systems middleware**
+
+- [ros-controls/ros2_control #3454](https://github.com/ros-controls/ros2_control/pull/3454) — guard `update_rate` against modulo-by-zero UB
+- [eclipse-cyclonedds/cyclonedds #2425](https://github.com/eclipse-cyclonedds/cyclonedds/pull/2425) — restore signal mask when `pthread_create` fails
+- [eclipse-iceoryx/iceoryx2 #1818](https://github.com/eclipse-iceoryx/iceoryx2/pull/1818) — add `node_id()` getter to C++ `NodeState`
+- [ros2/ros2cli #1257](https://github.com/ros2/ros2cli/pull/1257) — `interface show --no-comments` stops leaking comments
+- [ros2/rmw_cyclonedds #591](https://github.com/ros2/rmw_cyclonedds/pull/591) — downgrade noisy type-hash parse log to DEBUG
+
+**🧠 Embodied AI & reinforcement learning**
+
+- [huggingface/trl #6439](https://github.com/huggingface/trl/pull/6439) — GRPO truncated-completion loss normalization
+- [OpenRLHF/OpenRLHF #1261](https://github.com/OpenRLHF/OpenRLHF/pull/1261) — Qwen3.5 ZeRO-3 frozen-weight detection
+- [Farama-Foundation/Gymnasium #1618](https://github.com/Farama-Foundation/Gymnasium/pull/1618) — `default_camera_config` render fix
+- [huggingface/trl #6348](https://github.com/huggingface/trl/pull/6348) — DPO/KTO ref-log-prob `FileNotFoundError`
+
+**⚡ AI systems & inference infrastructure**
+
+- [vllm-project/vllm #48153](https://github.com/vllm-project/vllm/pull/48153) — migrate Mistral Large 3 to AutoWeightsLoader
+- [deepspeedai/DeepSpeed #8154](https://github.com/deepspeedai/DeepSpeed/pull/8154) — repeated gradient scaling across pipeline stages
+- [deepspeedai/DeepSpeed #8144](https://github.com/deepspeedai/DeepSpeed/pull/8144) — ZeRO-3 hooks for attribute-delegating modules
+- [NVIDIA/cccl #9785](https://github.com/NVIDIA/cccl/pull/9785) — `cuda::std::byteswap` via `__builtin_bswapg`
+
+**👁️ 3D & computer-vision perception**
+
+- [opencv/opencv #29487](https://github.com/opencv/opencv/pull/29487) — calibration docs, `decomposeProjectionMatrix`, `convertMaps` claims
+
+**🛠️ Other engineering contributions**
+
+- [nautechsystems/nautilus_trader #4443](https://github.com/nautechsystems/nautilus_trader/pull/4443) — consolidation data loss with single-file windows
+- [rust-lang/cargo #17203](https://github.com/rust-lang/cargo/pull/17203) — race in `cargo_compile_with_invalid_code_in_deps`
+- [duckdb/duckdb #23773](https://github.com/duckdb/duckdb/pull/23773) — VARCHAR→DECIMAL scientific-notation rounding
+- [biomejs/biome #10915](https://github.com/biomejs/biome/pull/10915) — `noNegationInEqualityCheck` lint rule
+- [BishopFox/sliver #2286](https://github.com/BishopFox/sliver/pull/2286) — prevent UA leak on proxy CONNECT
+- [Velocidex/velociraptor #4921](https://github.com/Velocidex/velociraptor/pull/4921) — missing columns in stateful shell ack rows
+- [vyperlang/vyper #5185](https://github.com/vyperlang/vyper/pull/5185) — reject bare `await` keyword
+- [conda/conda #16391](https://github.com/conda/conda/pull/16391) — type hints and docstrings
+- [ccxt/ccxt #29192](https://github.com/ccxt/ccxt/pull/29192) — Backpack ticker percentage normalization
+- [rsheftel/pandas_market_calendars #469](https://github.com/rsheftel/pandas_market_calendars/pull/469) — CME Energy/Metals early closes 2026
+- [fullpage-lab/PatchWing #3](https://github.com/fullpage-lab/PatchWing/pull/3) — portable refactor with bilingual docs
+- [fullpage-lab/PatchWing #1](https://github.com/fullpage-lab/PatchWing/pull/1) — P0 audit fixes (DB paths, NameError crash)
+- [Unclecheng-li/poc-lab #21](https://github.com/Unclecheng-li/poc-lab/pull/21) — BUILD.md for Januscape PoC kernel module
+- [Unclecheng-li/poc-lab #20](https://github.com/Unclecheng-li/poc-lab/pull/20) — standard `.gitignore` patterns
 
 </details>
 

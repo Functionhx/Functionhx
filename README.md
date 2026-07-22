@@ -27,7 +27,7 @@ I enjoy turning research prototypes into real systems—from perception, state e
 - **Exploring** — ROS 2, Nav2, Habitat, VLA/VLN, world models, and AI agents
 - **Engineering** — reliable real-robot systems, AI inference deployment, autonomous-driving infrastructure, and open-source software
 - **Let's talk about** — embodied AI, 3D scene intelligence, robotics middleware, AI infrastructure, and research automation
-- **Highlights** — 28 merged upstream PRs; Kaggle Bronze Medal (solo, top 9.9%)
+- **Highlights** — 28 merged upstream PRs; Kaggle Bronze Medal (solo, top 9.6%)
 
 ---
 

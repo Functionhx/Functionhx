@@ -27,7 +27,7 @@ I enjoy turning research prototypes into real systems—from perception, state e
 - **Exploring** — ROS 2, Nav2, Habitat, VLA/VLN, world models, and AI agents
 - **Engineering** — reliable real-robot systems, AI inference deployment, autonomous-driving infrastructure, and open-source software
 - **Let's talk about** — embodied AI, 3D scene intelligence, robotics middleware, AI infrastructure, and research automation
-- **Highlights** — 28 merged upstream PRs; Kaggle Bronze Medal (solo, top 9.6%)
+- **Highlights** — 29 merged upstream PRs; Kaggle Bronze Medal (solo, top 9.6%)
 
 ---
 
@@ -89,7 +89,7 @@ A three-backend (Isaac Gym / Isaac Lab / MuJoCo) reinforcement-learning classroo
 
 ## Open-Source Contributions
 
-Contributed **28 merged pull requests**, grouped below by domain — focused on robotics middleware, embodied AI & RL, AI inference infrastructure, and 3D perception, plus broader engineering work.
+Contributed **29 merged pull requests**, grouped below by domain — focused on robotics middleware, embodied AI & RL, AI inference infrastructure, and 3D perception, plus broader engineering work.
 
 | Project | Pull Request | Focus |
 |---|---|---|
@@ -103,7 +103,7 @@ Contributed **28 merged pull requests**, grouped below by domain — focused on 
 | Gymnasium | [#1618](https://github.com/Farama-Foundation/Gymnasium/pull/1618) | `default_camera_config` render fix |
 
 <details>
-<summary><b>View all 28 merged PRs (by domain)</b></summary>
+<summary><b>View all 29 merged PRs (by domain)</b></summary>
 
 <br>
 
@@ -140,6 +140,7 @@ Contributed **28 merged pull requests**, grouped below by domain — focused on 
 - [duckdb/duckdb #23773](https://github.com/duckdb/duckdb/pull/23773) — VARCHAR→DECIMAL scientific-notation rounding
 - [biomejs/biome #10915](https://github.com/biomejs/biome/pull/10915) — `noNegationInEqualityCheck` lint rule
 - [BishopFox/sliver #2286](https://github.com/BishopFox/sliver/pull/2286) — prevent UA leak on proxy CONNECT
+- [Pennyw0rth/NetExec #1311](https://github.com/Pennyw0rth/NetExec/pull/1311) — add `get_keys` fallback to prevent `export keys` crash
 - [Velocidex/velociraptor #4921](https://github.com/Velocidex/velociraptor/pull/4921) — missing columns in stateful shell ack rows
 - [vyperlang/vyper #5185](https://github.com/vyperlang/vyper/pull/5185) — reject bare `await` keyword
 - [conda/conda #16391](https://github.com/conda/conda/pull/16391) — type hints and docstrings

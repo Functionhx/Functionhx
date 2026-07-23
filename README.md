@@ -27,7 +27,7 @@
 - **正在玩** — ROS 2、Nav2、Habitat、VLA/VLN、世界模型与 AI Agent
 - **正在沉淀** — 机器人实机系统、AI 推理部署、自动驾驶工程与开源贡献
 - **想聊聊** — 具身智能、三维场景智能、机器人中间件、AI Infra 与科研自动化
-- **一些结果** — 28 个上游已合入 PR；Kaggle Bronze Medal（Solo，Top 9.9%）
+- **一些结果** — 29 个上游已合入 PR；Kaggle Bronze Medal（Solo，Top 9.6%）
 
 ---
 
@@ -89,7 +89,7 @@ Point-LIO 的 batch-wise 扩展，引入窗口内运动去畸变、批量 EKF �
 
 ## 开源贡献
 
-累计贡献 **28 个已合入 Pull Request**,下方按领域分组 —— 聚焦机器人中间件、具身智能 / 强化学习、AI 推理基础设施与三维感知,以及更广的工程贡献。
+累计贡献 **29 个已合入 Pull Request**,下方按领域分组 —— 聚焦机器人中间件、具身智能 / 强化学习、AI 推理基础设施与三维感知,以及更广的工程贡献。
 
 | Project | Pull Request | Focus |
 |---|---|---|
@@ -103,7 +103,7 @@ Point-LIO 的 batch-wise 扩展，引入窗口内运动去畸变、批量 EKF �
 | Gymnasium | [#1618](https://github.com/Farama-Foundation/Gymnasium/pull/1618) | `default_camera_config` 渲染修复 |
 
 <details>
-<summary><b>查看全部 28 个已合入 PR(按领域)</b></summary>
+<summary><b>查看全部 29 个已合入 PR(按领域)</b></summary>
 
 <br>
 
@@ -140,6 +140,7 @@ Point-LIO 的 batch-wise 扩展，引入窗口内运动去畸变、批量 EKF �
 - [duckdb/duckdb #23773](https://github.com/duckdb/duckdb/pull/23773) — VARCHAR→DECIMAL 科学计数法舍入
 - [biomejs/biome #10915](https://github.com/biomejs/biome/pull/10915) — `noNegationInEqualityCheck` lint 规则
 - [BishopFox/sliver #2286](https://github.com/BishopFox/sliver/pull/2286) — 防止代理 CONNECT 时的 UA 泄露
+- [Pennyw0rth/NetExec #1311](https://github.com/Pennyw0rth/NetExec/pull/1311) — 为 `export keys` 增加 `get_keys` 回退,避免崩溃
 - [Velocidex/velociraptor #4921](https://github.com/Velocidex/velociraptor/pull/4921) — 有状态 shell ack 行缺失列
 - [vyperlang/vyper #5185](https://github.com/vyperlang/vyper/pull/5185) — 拒绝裸 `await` 关键字
 - [conda/conda #16391](https://github.com/conda/conda/pull/16391) — 类型注解与文档字符串

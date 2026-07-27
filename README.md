@@ -27,7 +27,7 @@ I enjoy turning research prototypes into real systems—from perception, state e
 - **Exploring** — ROS 2, Nav2, Habitat, VLA/VLN, world models, and AI agents
 - **Engineering** — reliable real-robot systems, AI inference deployment, autonomous-driving infrastructure, and open-source software
 - **Let's talk about** — embodied AI, 3D scene intelligence, robotics middleware, AI infrastructure, and research automation
-- **Highlights** — 29 merged upstream PRs; Kaggle Bronze Medal (solo, top 9.6%)
+- **Highlights** — 30 merged upstream PRs; Kaggle Bronze Medal (solo, top 9.6%)
 
 ---
 
@@ -89,7 +89,7 @@ A three-backend (Isaac Gym / Isaac Lab / MuJoCo) reinforcement-learning classroo
 
 ## Open-Source Contributions
 
-Contributed **29 merged pull requests**, grouped below by domain — focused on robotics middleware, embodied AI & RL, AI inference infrastructure, and 3D perception, plus broader engineering work.
+Contributed **30 merged pull requests**, grouped below by domain — focused on robotics middleware, embodied AI & RL, AI inference infrastructure, and 3D perception, plus broader engineering work.
 
 | Project | Pull Request | Focus |
 |---|---|---|
@@ -103,7 +103,7 @@ Contributed **29 merged pull requests**, grouped below by domain — focused on 
 | Gymnasium | [#1618](https://github.com/Farama-Foundation/Gymnasium/pull/1618) | `default_camera_config` render fix |
 
 <details>
-<summary><b>View all 29 merged PRs (by domain)</b></summary>
+<summary><b>View all 30 merged PRs (by domain)</b></summary>
 
 <br>
 
@@ -114,6 +114,7 @@ Contributed **29 merged pull requests**, grouped below by domain — focused on 
 - [eclipse-iceoryx/iceoryx2 #1818](https://github.com/eclipse-iceoryx/iceoryx2/pull/1818) — add `node_id()` getter to C++ `NodeState`
 - [ros2/ros2cli #1257](https://github.com/ros2/ros2cli/pull/1257) — `interface show --no-comments` stops leaking comments
 - [ros2/rmw_cyclonedds #591](https://github.com/ros2/rmw_cyclonedds/pull/591) — downgrade noisy type-hash parse log to DEBUG
+- [ros2/rmw_cyclonedds #590](https://github.com/ros2/rmw_cyclonedds/pull/590) — warn when `net.core.rmem_max` is below CycloneDDS minimum
 
 **🧠 Embodied AI & reinforcement learning**
 

@@ -27,7 +27,7 @@
 - **正在玩** — ROS 2、Nav2、Habitat、VLA/VLN、世界模型与 AI Agent
 - **正在沉淀** — 机器人实机系统、AI 推理部署、自动驾驶工程与开源贡献
 - **想聊聊** — 具身智能、三维场景智能、机器人中间件、AI Infra 与科研自动化
-- **一些结果** — 29 个上游已合入 PR；Kaggle Bronze Medal（Solo，Top 9.6%）
+- **一些结果** — 30 个上游已合入 PR；Kaggle Bronze Medal（Solo，Top 9.6%）
 
 ---
 
@@ -89,7 +89,7 @@ Point-LIO 的 batch-wise 扩展，引入窗口内运动去畸变、批量 EKF �
 
 ## 开源贡献
 
-累计贡献 **29 个已合入 Pull Request**,下方按领域分组 —— 聚焦机器人中间件、具身智能 / 强化学习、AI 推理基础设施与三维感知,以及更广的工程贡献。
+累计贡献 **30 个已合入 Pull Request**,下方按领域分组 —— 聚焦机器人中间件、具身智能 / 强化学习、AI 推理基础设施与三维感知,以及更广的工程贡献。
 
 | Project | Pull Request | Focus |
 |---|---|---|
@@ -103,7 +103,7 @@ Point-LIO 的 batch-wise 扩展，引入窗口内运动去畸变、批量 EKF �
 | Gymnasium | [#1618](https://github.com/Farama-Foundation/Gymnasium/pull/1618) | `default_camera_config` 渲染修复 |
 
 <details>
-<summary><b>查看全部 29 个已合入 PR(按领域)</b></summary>
+<summary><b>查看全部 30 个已合入 PR(按领域)</b></summary>
 
 <br>
 
@@ -114,6 +114,7 @@ Point-LIO 的 batch-wise 扩展，引入窗口内运动去畸变、批量 EKF �
 - [eclipse-iceoryx/iceoryx2 #1818](https://github.com/eclipse-iceoryx/iceoryx2/pull/1818) — 为 C++ `NodeState` 增加 `node_id()` getter
 - [ros2/ros2cli #1257](https://github.com/ros2/ros2cli/pull/1257) — `interface show --no-comments` 不再泄露注释
 - [ros2/rmw_cyclonedds #591](https://github.com/ros2/rmw_cyclonedds/pull/591) — 将嘈杂的 type-hash 解析日志降级到 DEBUG
+- [ros2/rmw_cyclonedds #590](https://github.com/ros2/rmw_cyclonedds/pull/590) — 当 `net.core.rmem_max` 低于 CycloneDDS 最低要求时发出警告
 
 **🧠 具身智能与强化学习**
 

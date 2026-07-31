@@ -1,9 +1,6 @@
 name: Update README stats
 
 on:
-  push:
-    paths:
-      - ".github/workflows/stats.yml"
   schedule:
     - cron: "17 3 * * *"
   workflow_dispatch:
@@ -22,19 +19,29 @@ jobs:
       - name: Check out the profile repository
         uses: actions/checkout@v7
 
-      - name: Generate the stats card
-        uses: stats-organization/github-readme-stats-action@v1
-        with:
-          card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&theme=transparent&hide_border=true&include_all_commits=true&rank_icon=percentile&title_color=58A6FF&text_color=334155&icon_color=8B5CF6
-          path: profile/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Fetch stats card
+        run: |
+          OWNER="${{ github.repository_owner }}"
+          URL="https://github-readme-stats.shion.dev/api?username=${OWNER}&show_icons=true&theme=transparent&hide_border=true&include_all_commits=true&rank_icon=percentile&title_color=58A6FF&text_color=334155&icon_color=8B5CF6"
+
+          curl -sS --max-time 30 -o profile/stats.svg.tmp "${URL}"
+
+          # Guard against error responses being committed as valid SVGs
+          if grep -qi "Something went wrong\|Resource not accessible\|DEPLOYMENT_PAUSED\|SERVICE_UNAVAILABLE" profile/stats.svg.tmp; then
+            echo "Stats service returned an error; keeping existing stats.svg"
+            rm -f profile/stats.svg.tmp
+            exit 0
+          fi
+
+          mv profile/stats.svg.tmp profile/stats.svg
+          echo "Stats card updated successfully"
 
       - name: Commit an updated card
         run: |
           git add profile/stats.svg
 
           if git diff --cached --quiet; then
+            echo "No changes to commit"
             exit 0
           fi
 

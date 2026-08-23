@@ -93,16 +93,16 @@ Point-LIO 的 batch-wise 扩展，引入窗口内运动去畸变、批量 EKF �
 
 | Project | Pull Request | Focus |
 |---|---|---|
-| Comfy-Org / comfy-angle | [#6](https://github.com/Comfy-Org/comfy-angle/pull/6) | 无窗口系统依赖的 Linux ANGLE wheel |
-| NVIDIA OSMO | [#1211](https://github.com/NVIDIA/OSMO/pull/1211) | 默认 / IRSA S3 端点处理 |
-| LangChain | [#38765](https://github.com/langchain-ai/langchain/pull/38765) | Anthropic 思维流回放修复 |
 | vLLM | [#48153](https://github.com/vllm-project/vllm/pull/48153) | MistralLarge3 → AutoWeightsLoader |
 | DeepSpeed | [#8154](https://github.com/deepspeedai/DeepSpeed/pull/8154) | 流水线梯度缩放修复 |
+| LangChain | [#38765](https://github.com/langchain-ai/langchain/pull/38765) | Anthropic 思维流回放修复 |
 | ARIS | [#360](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/pull/360) | 带来源校验的跨模型审查 |
 | ros2_control | [#3454](https://github.com/ros-controls/ros2_control/pull/3454) | `update_rate` 模零 UB 防护 |
 | CycloneDDS | [#2425](https://github.com/eclipse-cyclonedds/cyclonedds/pull/2425) | `pthread_create` 失败时恢复信号掩码 |
 | OpenRLHF | [#1261](https://github.com/OpenRLHF/OpenRLHF/pull/1261) | Qwen3.5 ZeRO-3 冻结权重检测 |
 | Hugging Face TRL | [#6439](https://github.com/huggingface/trl/pull/6439) | GRPO 损失归一化 |
+| Comfy-Org / comfy-angle | [#6](https://github.com/Comfy-Org/comfy-angle/pull/6) | 无窗口系统依赖的 Linux ANGLE wheel |
+| NVIDIA OSMO | [#1211](https://github.com/NVIDIA/OSMO/pull/1211) | 默认 / IRSA S3 端点处理 |
 | OpenCV | [#29487](https://github.com/opencv/opencv/pull/29487) | 标定与投影矩阵修复 |
 | Gymnasium | [#1618](https://github.com/Farama-Foundation/Gymnasium/pull/1618) | `default_camera_config` 渲染修复 |
 
@@ -129,12 +129,12 @@ Point-LIO 的 batch-wise 扩展，引入窗口内运动去畸变、批量 EKF �
 
 **⚡ AI 系统与推理基础设施**
 
-- [Comfy-Org/comfy-angle #6](https://github.com/Comfy-Org/comfy-angle/pull/6) — 构建无 X11、Wayland 或 GBM 依赖的无头 Linux ANGLE wheels
-- [NVIDIA/OSMO #1211](https://github.com/NVIDIA/OSMO/pull/1211) — 使用默认或 IRSA S3 端点验证环境凭据
 - [vllm-project/vllm #48153](https://github.com/vllm-project/vllm/pull/48153) — 将 Mistral Large 3 迁移到 AutoWeightsLoader
 - [deepspeedai/DeepSpeed #8154](https://github.com/deepspeedai/DeepSpeed/pull/8154) — 流水线各阶段重复梯度缩放
 - [deepspeedai/DeepSpeed #8144](https://github.com/deepspeedai/DeepSpeed/pull/8144) — 属性代理模块的 ZeRO-3 hooks
 - [NVIDIA/cccl #9785](https://github.com/NVIDIA/cccl/pull/9785) — 用 `__builtin_bswapg` 实现 `cuda::std::byteswap`
+- [Comfy-Org/comfy-angle #6](https://github.com/Comfy-Org/comfy-angle/pull/6) — 构建无 X11、Wayland 或 GBM 依赖的无头 Linux ANGLE wheels
+- [NVIDIA/OSMO #1211](https://github.com/NVIDIA/OSMO/pull/1211) — 使用默认或 IRSA S3 端点验证环境凭据
 
 **🧪 AI Agent 与科研自动化**
 

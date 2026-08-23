@@ -27,7 +27,7 @@ I enjoy turning research prototypes into real systems—from perception, state e
 - **Exploring** — ROS 2, Nav2, Habitat, VLA/VLN, world models, and AI agents
 - **Engineering** — reliable real-robot systems, AI inference deployment, autonomous-driving infrastructure, and open-source software
 - **Let's talk about** — embodied AI, 3D scene intelligence, robotics middleware, AI infrastructure, and research automation
-- **Highlights** — 30 merged upstream PRs; Kaggle Bronze Medal (solo, top 9.6%)
+- **Highlights** — 34 merged upstream PRs; Kaggle Bronze Medal (solo, top 9.6%)
 
 ---
 
@@ -89,12 +89,16 @@ A three-backend (Isaac Gym / Isaac Lab / MuJoCo) reinforcement-learning classroo
 
 ## Open-Source Contributions
 
-Contributed **30 merged pull requests**, grouped below by domain — focused on robotics middleware, embodied AI & RL, AI inference infrastructure, and 3D perception, plus broader engineering work.
+Contributed **34 merged upstream pull requests**, grouped below by domain — focused on robotics middleware, embodied AI & RL, AI systems, agent tooling, and 3D perception, plus broader engineering work.
 
 | Project | Pull Request | Focus |
 |---|---|---|
+| Comfy-Org / comfy-angle | [#6](https://github.com/Comfy-Org/comfy-angle/pull/6) | Headless Linux ANGLE wheels |
+| NVIDIA OSMO | [#1211](https://github.com/NVIDIA/OSMO/pull/1211) | Default / IRSA S3 endpoint handling |
+| LangChain | [#38765](https://github.com/langchain-ai/langchain/pull/38765) | Anthropic thinking-stream replay fix |
 | vLLM | [#48153](https://github.com/vllm-project/vllm/pull/48153) | Mistral Large 3 → AutoWeightsLoader |
 | DeepSpeed | [#8154](https://github.com/deepspeedai/DeepSpeed/pull/8154) | Pipeline gradient-scaling fix |
+| ARIS | [#360](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/pull/360) | Provenance-checked cross-model review |
 | ros2_control | [#3454](https://github.com/ros-controls/ros2_control/pull/3454) | `update_rate` modulo-by-zero UB guard |
 | CycloneDDS | [#2425](https://github.com/eclipse-cyclonedds/cyclonedds/pull/2425) | Signal-mask restore on `pthread_create` |
 | OpenRLHF | [#1261](https://github.com/OpenRLHF/OpenRLHF/pull/1261) | Qwen3.5 ZeRO-3 frozen-weight detection |
@@ -103,7 +107,7 @@ Contributed **30 merged pull requests**, grouped below by domain — focused on 
 | Gymnasium | [#1618](https://github.com/Farama-Foundation/Gymnasium/pull/1618) | `default_camera_config` render fix |
 
 <details>
-<summary><b>View all 30 merged PRs (by domain)</b></summary>
+<summary><b>View all 34 merged upstream PRs (by domain)</b></summary>
 
 <br>
 
@@ -125,10 +129,17 @@ Contributed **30 merged pull requests**, grouped below by domain — focused on 
 
 **⚡ AI systems & inference infrastructure**
 
+- [Comfy-Org/comfy-angle #6](https://github.com/Comfy-Org/comfy-angle/pull/6) — build headless Linux ANGLE wheels without X11, Wayland, or GBM dependencies
+- [NVIDIA/OSMO #1211](https://github.com/NVIDIA/OSMO/pull/1211) — use default or IRSA S3 endpoints when validating ambient credentials
 - [vllm-project/vllm #48153](https://github.com/vllm-project/vllm/pull/48153) — migrate Mistral Large 3 to AutoWeightsLoader
 - [deepspeedai/DeepSpeed #8154](https://github.com/deepspeedai/DeepSpeed/pull/8154) — repeated gradient scaling across pipeline stages
 - [deepspeedai/DeepSpeed #8144](https://github.com/deepspeedai/DeepSpeed/pull/8144) — ZeRO-3 hooks for attribute-delegating modules
 - [NVIDIA/cccl #9785](https://github.com/NVIDIA/cccl/pull/9785) — `cuda::std::byteswap` via `__builtin_bswapg`
+
+**🧪 AI agents & research automation**
+
+- [langchain-ai/langchain #38765](https://github.com/langchain-ai/langchain/pull/38765) — preserve empty Anthropic thinking blocks during streamed signature replay
+- [wanshuiyin/Auto-claude-code-research-in-sleep #360](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/pull/360) — default to provenance-checked native cross-model review
 
 **👁️ 3D & computer-vision perception**
 

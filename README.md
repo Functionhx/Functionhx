@@ -48,38 +48,13 @@ Point-LIO 的 batch-wise 扩展，引入窗口内运动去畸变、批量 EKF �
 </td>
 <td width="50%" valign="top">
 
-### ⭐ [BITFSD-Annotator](https://github.com/Functionhx/BITFSD-Annotator)
+### ⭐ [RoboAccel](https://github.com/Functionhx/RoboAccel)
 
-[![Stars](https://img.shields.io/github/stars/Functionhx/BITFSD-Annotator?style=social)](https://github.com/Functionhx/BITFSD-Annotator)
+[![Stars](https://img.shields.io/github/stars/Functionhx/RoboAccel?style=social)](https://github.com/Functionhx/RoboAccel)
 
-面向无人方程式点云数据的三维标注与 AI 预标注平台，支持质量门控、OpenPCDet 格式及 TensorRT 推理后端。
+面向 FPGA 与 MCU 的端到端强化学习控制部署栈，在五种实现间验证定点计算逐位一致，实测 FPGA 纯推理速度达到 Cortex-M7 的 14.4 倍。
 
-`3D Vision` `TensorRT` `Vue` `FastAPI`
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-### [CatchLab](https://github.com/Functionhx/catchlab)
-
-[![Stars](https://img.shields.io/github/stars/Functionhx/catchlab?style=social)](https://github.com/Functionhx/catchlab)
-
-面向可重复使用运载火箭末端回收的开源仿真与验证框架 —— 覆盖返回飞行、制导导航与控制、塔架与柔性阻拦索捕获动力学，以及 SIL → HIL → 缩比实物的可解释、可复现 sim-to-real 研究平台。
-
-`Rocket Recovery` `GNC` `Sim-to-Real` `C++20`
-
-</td>
-<td width="50%" valign="top">
-
-### [ActuateX](https://github.com/Functionhx/actuatex)
-
-[![Stars](https://img.shields.io/github/stars/Functionhx/actuatex?style=social)](https://github.com/Functionhx/actuatex)
-
-三后端（Isaac Gym / Isaac Lab / MuJoCo）强化学习控制课堂：在一个仿真器里训练策略，再让它在陌生动力学、持续扰动、台阶与另一套物理引擎下自证鲁棒性。
-
-`Reinforcement Learning` `Sim2Sim` `Robot Control` `Isaac Lab`
+`Reinforcement Learning` `FPGA` `STM32` `Quantization`
 
 </td>
 </tr>

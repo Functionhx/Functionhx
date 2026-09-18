@@ -61,18 +61,6 @@ Point-LIO 的 batch-wise 扩展，引入窗口内运动去畸变、批量 EKF �
 
 累计 **34 个已合并 PR**；下方精选 **15 个项目 · 18 个 PR**。
 
-### 机器人与感知
-
-| 项目 · 已合并 PR | 贡献内容 |
-|---|---|
-| **ros2_control** · [#3454](https://github.com/ros-controls/ros2_control/pull/3454) | 控制器更新频率的模零防护 |
-| **CycloneDDS** · [#2425](https://github.com/eclipse-cyclonedds/cyclonedds/pull/2425) | 线程创建失败后的信号掩码恢复 |
-| **iceoryx2** · [#1818](https://github.com/eclipse-iceoryx/iceoryx2/pull/1818) | C++ 节点 ID 访问接口 |
-| **ROS 2 · ros2cli** · [#1257](https://github.com/ros2/ros2cli/pull/1257) | 接口定义的注释过滤 |
-| **ROS 2 · rmw_cyclonedds** · [#591](https://github.com/ros2/rmw_cyclonedds/pull/591) · [#590](https://github.com/ros2/rmw_cyclonedds/pull/590) | 日志级别调整与接收缓冲区诊断 |
-| **OpenCV** · [#29487](https://github.com/opencv/opencv/pull/29487) | 标定与投影相关文档修正 |
-| **Gymnasium** · [#1618](https://github.com/Farama-Foundation/Gymnasium/pull/1618) | 渲染相机配置修复 |
-
 ### AI 与系统工具
 
 | 项目 · 已合并 PR | 贡献内容 |
@@ -85,6 +73,18 @@ Point-LIO 的 batch-wise 扩展，引入窗口内运动去畸变、批量 EKF �
 | **NVIDIA CCCL** · [#9785](https://github.com/NVIDIA/cccl/pull/9785) | CUDA 字节交换的编译器内建支持 |
 | **NVIDIA OSMO** · [#1211](https://github.com/NVIDIA/OSMO/pull/1211) | S3 验证端点处理修复 |
 | **Rust Cargo** · [#17203](https://github.com/rust-lang/cargo/pull/17203) | 编译测试竞态修复 |
+
+### 机器人与感知
+
+| 项目 · 已合并 PR | 贡献内容 |
+|---|---|
+| **ros2_control** · [#3454](https://github.com/ros-controls/ros2_control/pull/3454) | 控制器更新频率的模零防护 |
+| **CycloneDDS** · [#2425](https://github.com/eclipse-cyclonedds/cyclonedds/pull/2425) | 线程创建失败后的信号掩码恢复 |
+| **iceoryx2** · [#1818](https://github.com/eclipse-iceoryx/iceoryx2/pull/1818) | C++ 节点 ID 访问接口 |
+| **ROS 2 · ros2cli** · [#1257](https://github.com/ros2/ros2cli/pull/1257) | 接口定义的注释过滤 |
+| **ROS 2 · rmw_cyclonedds** · [#591](https://github.com/ros2/rmw_cyclonedds/pull/591) · [#590](https://github.com/ros2/rmw_cyclonedds/pull/590) | 日志级别调整与接收缓冲区诊断 |
+| **OpenCV** · [#29487](https://github.com/opencv/opencv/pull/29487) | 标定与投影相关文档修正 |
+| **Gymnasium** · [#1618](https://github.com/Farama-Foundation/Gymnasium/pull/1618) | 渲染相机配置修复 |
 
 <details>
 <summary><b>查看全部 34 个已合并 PR · 29 个仓库</b></summary>

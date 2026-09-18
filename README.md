@@ -4,7 +4,7 @@
 
 [English](https://github.com/Functionhx) · 简体中文
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=21&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=760&lines=%E8%AE%A9%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%9C%8B%E8%A7%81%E3%80%81%E5%AE%9A%E4%BD%8D%E3%80%81%E7%90%86%E8%A7%A3%E5%B9%B6%E8%A1%8C%E5%8A%A8;Building+systems+that+perceive%2C+reason%2C+and+move;3DGS+%C2%B7+Embodied+AI+%C2%B7+Autonomous+Systems+%C2%B7+Open+Source)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=21&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=760&lines=%E4%BB%8E%E6%84%9F%E7%9F%A5%E3%80%81%E8%A7%84%E5%88%92%E5%88%B0%E5%AE%9E%E6%97%B6%E6%8E%A7%E5%88%B6;%E7%AE%97%E6%B3%95%E3%80%81%E8%BD%AF%E4%BB%B6%E4%B8%8E%E7%A1%AC%E4%BB%B6%E7%9A%84%E5%8D%8F%E5%90%8C%E8%AE%BE%E8%AE%A1;3DGS+%C2%B7+Embodied+AI+%C2%B7+Autonomous+Systems+%C2%B7+Open+Source)](https://git.io/typing-svg)
 
 <p align="center">
   <a href="https://functionhx.github.io/">

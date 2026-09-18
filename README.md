@@ -48,38 +48,13 @@ A batch-wise extension of Point-LIO featuring within-window motion undistortion,
 </td>
 <td width="50%" valign="top">
 
-### ⭐ [BITFSD-Annotator](https://github.com/Functionhx/BITFSD-Annotator)
+### ⭐ [RoboAccel](https://github.com/Functionhx/RoboAccel)
 
-[![Stars](https://img.shields.io/github/stars/Functionhx/BITFSD-Annotator?style=social)](https://github.com/Functionhx/BITFSD-Annotator)
+[![Stars](https://img.shields.io/github/stars/Functionhx/RoboAccel?style=social)](https://github.com/Functionhx/RoboAccel)
 
-A 3D annotation and AI-assisted pre-labeling platform for Formula Student Driverless point clouds, with quality gates, OpenPCDet export, and a TensorRT inference backend.
+An end-to-end RL control deployment stack for FPGA and MCU, with bit-exact fixed-point verification across five implementations and a measured 14.4× FPGA pure-inference speedup over Cortex-M7.
 
-`3D Vision` `TensorRT` `Vue` `FastAPI`
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-### [CatchLab](https://github.com/Functionhx/catchlab)
-
-[![Stars](https://img.shields.io/github/stars/Functionhx/catchlab?style=social)](https://github.com/Functionhx/catchlab)
-
-An open simulation and verification framework for reusable-launch-vehicle terminal recovery — return flight, GNC, tower and arrestor-cable catch dynamics, and a SIL → HIL → scaled-experiment path built for explainable, reproducible sim-to-real.
-
-`Rocket Recovery` `GNC` `Sim-to-Real` `C++20`
-
-</td>
-<td width="50%" valign="top">
-
-### [ActuateX](https://github.com/Functionhx/actuatex)
-
-[![Stars](https://img.shields.io/github/stars/Functionhx/actuatex?style=social)](https://github.com/Functionhx/actuatex)
-
-A three-backend (Isaac Gym / Isaac Lab / MuJoCo) reinforcement-learning classroom for robust locomotion — train a policy in one simulator, then make it prove itself under unfamiliar dynamics, sustained pushes, stairs, and a different physics engine.
-
-`Reinforcement Learning` `Sim2Sim` `Robot Control` `Isaac Lab`
+`Reinforcement Learning` `FPGA` `STM32` `Quantization`
 
 </td>
 </tr>

@@ -6,11 +6,7 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=21&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=760&lines=%E4%BB%8E%E6%84%9F%E7%9F%A5%E3%80%81%E8%A7%84%E5%88%92%E5%88%B0%E5%AE%9E%E6%97%B6%E6%8E%A7%E5%88%B6;%E7%AE%97%E6%B3%95%E3%80%81%E8%BD%AF%E4%BB%B6%E4%B8%8E%E7%A1%AC%E4%BB%B6%E7%9A%84%E5%8D%8F%E5%90%8C%E8%AE%BE%E8%AE%A1;SLAM+%C2%B7+3DGS+%C2%B7+Embodied+AI+%C2%B7+Robotics+Infrastructure)](https://git.io/typing-svg)
 
-<p align="center">
-  <a href="https://functionhx.github.io/">
-    <img src="./profile/website.svg" width="460" alt="访问我的个人网站 — functionhx.github.io" />
-  </a>
-</p>
+<h2><a href="https://functionhx.github.io/">个人网站 ↗</a></h2>
 
 [![Followers](https://img.shields.io/github/followers/Functionhx?style=flat-square&logo=github&label=Followers&color=blue)](https://github.com/Functionhx?tab=followers)
 [![Stars](https://img.shields.io/github/stars/Functionhx?affiliations=OWNER&style=flat-square&logo=github&label=Stars&color=yellow)](https://github.com/Functionhx?tab=repositories)
@@ -63,7 +59,7 @@ Point-LIO 的 batch-wise 扩展，引入窗口内运动去畸变、批量 EKF �
 
 ## 开源贡献
 
-精选 **15 个项目 · 18 个已合并 PR**。
+累计 **34 个已合并 PR**；下方精选 **15 个项目 · 18 个 PR**。
 
 ### 机器人与感知
 
@@ -89,6 +85,43 @@ Point-LIO 的 batch-wise 扩展，引入窗口内运动去畸变、批量 EKF �
 | **NVIDIA CCCL** · [#9785](https://github.com/NVIDIA/cccl/pull/9785) | CUDA 字节交换的编译器内建支持 |
 | **NVIDIA OSMO** · [#1211](https://github.com/NVIDIA/OSMO/pull/1211) | S3 验证端点处理修复 |
 | **Rust Cargo** · [#17203](https://github.com/rust-lang/cargo/pull/17203) | 编译测试竞态修复 |
+
+<details>
+<summary><b>查看全部 34 个已合并 PR · 29 个仓库</b></summary>
+
+| 项目 | 已合并 PR 与贡献内容 |
+|---|---|
+| **[Biome](https://github.com/biomejs/biome)** | [#10915](https://github.com/biomejs/biome/pull/10915) — `noNegationInEqualityCheck` lint 规则 |
+| **[Sliver](https://github.com/BishopFox/sliver)** | [#2286](https://github.com/BishopFox/sliver/pull/2286) — 防止代理 CONNECT 时的 UA 泄露 |
+| **[CCXT](https://github.com/ccxt/ccxt)** | [#29192](https://github.com/ccxt/ccxt/pull/29192) — Backpack 行情百分比归一化 |
+| **[Comfy-Org / comfy-angle](https://github.com/Comfy-Org/comfy-angle)** | [#6](https://github.com/Comfy-Org/comfy-angle/pull/6) — 构建无 X11、Wayland 或 GBM 依赖的无头 Linux ANGLE wheels |
+| **[Conda](https://github.com/conda/conda)** | [#16391](https://github.com/conda/conda/pull/16391) — 类型注解与文档字符串 |
+| **[DeepSpeed](https://github.com/deepspeedai/DeepSpeed)** | [#8154](https://github.com/deepspeedai/DeepSpeed/pull/8154) — 流水线各阶段重复梯度缩放<br>[#8144](https://github.com/deepspeedai/DeepSpeed/pull/8144) — 属性代理模块的 ZeRO-3 hooks |
+| **[DuckDB](https://github.com/duckdb/duckdb)** | [#23773](https://github.com/duckdb/duckdb/pull/23773) — VARCHAR→DECIMAL 科学计数法舍入 |
+| **[CycloneDDS](https://github.com/eclipse-cyclonedds/cyclonedds)** | [#2425](https://github.com/eclipse-cyclonedds/cyclonedds/pull/2425) — `pthread_create` 失败时恢复信号掩码 |
+| **[iceoryx2](https://github.com/eclipse-iceoryx/iceoryx2)** | [#1818](https://github.com/eclipse-iceoryx/iceoryx2/pull/1818) — 为 C++ `NodeState` 增加 `node_id()` getter |
+| **[Gymnasium](https://github.com/Farama-Foundation/Gymnasium)** | [#1618](https://github.com/Farama-Foundation/Gymnasium/pull/1618) — `default_camera_config` 渲染修复 |
+| **[PatchWing](https://github.com/fullpage-lab/PatchWing)** | [#3](https://github.com/fullpage-lab/PatchWing/pull/3) — 可移植重构与双语文档<br>[#1](https://github.com/fullpage-lab/PatchWing/pull/1) — P0 审计修复(DB 路径、NameError 崩溃) |
+| **[Hugging Face TRL](https://github.com/huggingface/trl)** | [#6439](https://github.com/huggingface/trl/pull/6439) — GRPO 截断补全的损失归一化<br>[#6348](https://github.com/huggingface/trl/pull/6348) — DPO/KTO ref-log-prob `FileNotFoundError` |
+| **[LangChain](https://github.com/langchain-ai/langchain)** | [#38765](https://github.com/langchain-ai/langchain/pull/38765) — 在流式签名回放中保留 Anthropic 的空 `thinking` 字段 |
+| **[NautilusTrader](https://github.com/nautechsystems/nautilus_trader)** | [#4443](https://github.com/nautechsystems/nautilus_trader/pull/4443) — 单文件周期窗口的合并数据丢失 |
+| **[NVIDIA CCCL](https://github.com/NVIDIA/cccl)** | [#9785](https://github.com/NVIDIA/cccl/pull/9785) — 用 `__builtin_bswapg` 实现 `cuda::std::byteswap` |
+| **[NVIDIA OSMO](https://github.com/NVIDIA/OSMO)** | [#1211](https://github.com/NVIDIA/OSMO/pull/1211) — 使用默认或 IRSA S3 端点验证环境凭据 |
+| **[OpenCV](https://github.com/opencv/opencv)** | [#29487](https://github.com/opencv/opencv/pull/29487) — 标定文档、`decomposeProjectionMatrix`、`convertMaps` 表述 |
+| **[OpenRLHF](https://github.com/OpenRLHF/OpenRLHF)** | [#1261](https://github.com/OpenRLHF/OpenRLHF/pull/1261) — Qwen3.5 ZeRO-3 冻结权重检测 |
+| **[NetExec](https://github.com/Pennyw0rth/NetExec)** | [#1311](https://github.com/Pennyw0rth/NetExec/pull/1311) — 为 `export keys` 增加 `get_keys` 回退,避免崩溃 |
+| **[ros2_control](https://github.com/ros-controls/ros2_control)** | [#3454](https://github.com/ros-controls/ros2_control/pull/3454) — 为 `update_rate` 增加模零 UB 防护 |
+| **[ROS 2 / rmw_cyclonedds](https://github.com/ros2/rmw_cyclonedds)** | [#591](https://github.com/ros2/rmw_cyclonedds/pull/591) — 将嘈杂的 type-hash 解析日志降级到 DEBUG<br>[#590](https://github.com/ros2/rmw_cyclonedds/pull/590) — 当 `net.core.rmem_max` 低于 CycloneDDS 最低要求时发出警告 |
+| **[ROS 2 / ros2cli](https://github.com/ros2/ros2cli)** | [#1257](https://github.com/ros2/ros2cli/pull/1257) — `interface show --no-comments` 不再泄露注释 |
+| **[pandas_market_calendars](https://github.com/rsheftel/pandas_market_calendars)** | [#469](https://github.com/rsheftel/pandas_market_calendars/pull/469) — 2026 CME 能源/金属提前收盘 |
+| **[Rust Cargo](https://github.com/rust-lang/cargo)** | [#17203](https://github.com/rust-lang/cargo/pull/17203) — `cargo_compile_with_invalid_code_in_deps` 竞态 |
+| **[poc-lab](https://github.com/Unclecheng-li/poc-lab)** | [#21](https://github.com/Unclecheng-li/poc-lab/pull/21) — Januscape PoC 内核模块 BUILD.md<br>[#20](https://github.com/Unclecheng-li/poc-lab/pull/20) — 标准 `.gitignore` 模式 |
+| **[Velociraptor](https://github.com/Velocidex/velociraptor)** | [#4921](https://github.com/Velocidex/velociraptor/pull/4921) — 有状态 shell ack 行缺失列 |
+| **[vLLM](https://github.com/vllm-project/vllm)** | [#48153](https://github.com/vllm-project/vllm/pull/48153) — 将 Mistral Large 3 迁移到 AutoWeightsLoader |
+| **[Vyper](https://github.com/vyperlang/vyper)** | [#5185](https://github.com/vyperlang/vyper/pull/5185) — 拒绝裸 `await` 关键字 |
+| **[ARIS](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep)** | [#360](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/pull/360) — 默认启用带模型来源校验、fail-closed 的原生跨模型审查 |
+
+</details>
 
 ---
 

@@ -4,7 +4,7 @@
 
 English · [简体中文](https://github.com/Functionhx/Functionhx/blob/zh-CN/README.md)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=21&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=760&lines=From+perception+and+planning+to+real-time+control;Co-designing+algorithms%2C+software%2C+and+hardware;3DGS+%C2%B7+Embodied+AI+%C2%B7+Autonomous+Systems+%C2%B7+Open+Source)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=21&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=760&lines=From+perception+and+planning+to+real-time+control;Co-designing+algorithms%2C+software%2C+and+hardware;SLAM+%C2%B7+3DGS+%C2%B7+Embodied+AI+%C2%B7+Robotics+Infrastructure)](https://git.io/typing-svg)
 
 <p align="center">
   <a href="https://functionhx.github.io/">

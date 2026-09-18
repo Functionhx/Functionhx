@@ -22,20 +22,6 @@ English · [简体中文](https://github.com/Functionhx/Functionhx/blob/zh-CN/RE
 
 ---
 
-## About Me
-
-I am an undergraduate Robotics Engineering student at Beijing Institute of Technology, working at the intersection of robotics, autonomous driving, embodied AI, 3D scene representation, and AI systems engineering.
-
-I enjoy turning research prototypes into real systems—from perception, state estimation, and navigation to inference deployment, communication architecture, testing, and fault recovery. Beyond getting a demo to run, I care about reliability, reproducibility, and graceful recovery when things go wrong.
-
-- **Currently building** — 3DGS visual localization, instance navigation, and editable road-scene generation
-- **Exploring** — ROS 2, Nav2, Habitat, VLA/VLN, world models, and AI agents
-- **Engineering** — reliable real-robot systems, AI inference deployment, autonomous-driving infrastructure, and open-source software
-- **Let's talk about** — embodied AI, 3D scene intelligence, robotics middleware, AI infrastructure, and research automation
-- **Highlights** — 34 merged upstream PRs; Kaggle Bronze Medal (solo, top 9.6%)
-
----
-
 ## Featured Projects
 
 <table>
@@ -64,6 +50,14 @@ An end-to-end RL control deployment stack for FPGA and MCU, with bit-exact fixed
 </td>
 </tr>
 </table>
+
+---
+
+## About Me
+
+Robotics Engineering undergraduate at **Beijing Institute of Technology**.
+
+I work across algorithms, software, and hardware to turn robotics research into reliable systems, with an emphasis on real-robot deployment and reproducible results.
 
 ---
 

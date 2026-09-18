@@ -61,18 +61,6 @@ I work across algorithms, software, and hardware to turn robotics research into 
 
 **34 merged upstream PRs** in total. Selected below: **15 projects · 18 PRs**.
 
-### Robotics & perception
-
-| Project · merged PRs | Contribution |
-|---|---|
-| **ros2_control** · [#3454](https://github.com/ros-controls/ros2_control/pull/3454) | Controller update-rate safety |
-| **CycloneDDS** · [#2425](https://github.com/eclipse-cyclonedds/cyclonedds/pull/2425) | Signal-mask recovery on thread creation failure |
-| **iceoryx2** · [#1818](https://github.com/eclipse-iceoryx/iceoryx2/pull/1818) | C++ node ID access |
-| **ROS 2 · ros2cli** · [#1257](https://github.com/ros2/ros2cli/pull/1257) | Interface comment filtering |
-| **ROS 2 · rmw_cyclonedds** · [#591](https://github.com/ros2/rmw_cyclonedds/pull/591) · [#590](https://github.com/ros2/rmw_cyclonedds/pull/590) | Log severity & receive-buffer diagnostics |
-| **OpenCV** · [#29487](https://github.com/opencv/opencv/pull/29487) | Calibration & projection documentation corrections |
-| **Gymnasium** · [#1618](https://github.com/Farama-Foundation/Gymnasium/pull/1618) | Camera configuration in rendering |
-
 ### AI & systems tooling
 
 | Project · merged PRs | Contribution |
@@ -85,6 +73,18 @@ I work across algorithms, software, and hardware to turn robotics research into 
 | **NVIDIA CCCL** · [#9785](https://github.com/NVIDIA/cccl/pull/9785) | Compiler builtin for CUDA byteswap |
 | **NVIDIA OSMO** · [#1211](https://github.com/NVIDIA/OSMO/pull/1211) | S3 validation endpoint handling |
 | **Rust Cargo** · [#17203](https://github.com/rust-lang/cargo/pull/17203) | Compiler-test race fix |
+
+### Robotics & perception
+
+| Project · merged PRs | Contribution |
+|---|---|
+| **ros2_control** · [#3454](https://github.com/ros-controls/ros2_control/pull/3454) | Controller update-rate safety |
+| **CycloneDDS** · [#2425](https://github.com/eclipse-cyclonedds/cyclonedds/pull/2425) | Signal-mask recovery on thread creation failure |
+| **iceoryx2** · [#1818](https://github.com/eclipse-iceoryx/iceoryx2/pull/1818) | C++ node ID access |
+| **ROS 2 · ros2cli** · [#1257](https://github.com/ros2/ros2cli/pull/1257) | Interface comment filtering |
+| **ROS 2 · rmw_cyclonedds** · [#591](https://github.com/ros2/rmw_cyclonedds/pull/591) · [#590](https://github.com/ros2/rmw_cyclonedds/pull/590) | Log severity & receive-buffer diagnostics |
+| **OpenCV** · [#29487](https://github.com/opencv/opencv/pull/29487) | Calibration & projection documentation corrections |
+| **Gymnasium** · [#1618](https://github.com/Farama-Foundation/Gymnasium/pull/1618) | Camera configuration in rendering |
 
 <details>
 <summary><b>View all 34 merged PRs · 29 repositories</b></summary>

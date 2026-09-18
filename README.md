@@ -63,81 +63,32 @@ I work across algorithms, software, and hardware to turn robotics research into 
 
 ## Open-Source Contributions
 
-Contributed **34 merged upstream pull requests**, grouped below by domain — focused on robotics middleware, embodied AI & RL, AI systems, agent tooling, and 3D perception, plus broader engineering work.
+Selected contributions across **15 projects · 18 merged PRs**.
 
-| Project | Pull Request | Focus |
-|---|---|---|
-| vLLM | [#48153](https://github.com/vllm-project/vllm/pull/48153) | Mistral Large 3 → AutoWeightsLoader |
-| DeepSpeed | [#8154](https://github.com/deepspeedai/DeepSpeed/pull/8154) | Pipeline gradient-scaling fix |
-| LangChain | [#38765](https://github.com/langchain-ai/langchain/pull/38765) | Anthropic thinking-stream replay fix |
-| ARIS | [#360](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/pull/360) | Provenance-checked cross-model review |
-| ros2_control | [#3454](https://github.com/ros-controls/ros2_control/pull/3454) | `update_rate` modulo-by-zero UB guard |
-| CycloneDDS | [#2425](https://github.com/eclipse-cyclonedds/cyclonedds/pull/2425) | Signal-mask restore on `pthread_create` |
-| OpenRLHF | [#1261](https://github.com/OpenRLHF/OpenRLHF/pull/1261) | Qwen3.5 ZeRO-3 frozen-weight detection |
-| Hugging Face TRL | [#6439](https://github.com/huggingface/trl/pull/6439) | GRPO loss normalization |
-| Comfy-Org / comfy-angle | [#6](https://github.com/Comfy-Org/comfy-angle/pull/6) | Headless Linux ANGLE wheels |
-| NVIDIA OSMO | [#1211](https://github.com/NVIDIA/OSMO/pull/1211) | Default / IRSA S3 endpoint handling |
-| OpenCV | [#29487](https://github.com/opencv/opencv/pull/29487) | Calibration & projection-matrix fixes |
-| Gymnasium | [#1618](https://github.com/Farama-Foundation/Gymnasium/pull/1618) | `default_camera_config` render fix |
+### Robotics & perception
 
-<details>
-<summary><b>View all 34 merged upstream PRs (by domain)</b></summary>
+| Project · merged PRs | Contribution |
+|---|---|
+| **ros2_control** · [#3454](https://github.com/ros-controls/ros2_control/pull/3454) | Controller update-rate safety |
+| **CycloneDDS** · [#2425](https://github.com/eclipse-cyclonedds/cyclonedds/pull/2425) | Signal-mask recovery on thread creation failure |
+| **iceoryx2** · [#1818](https://github.com/eclipse-iceoryx/iceoryx2/pull/1818) | C++ node ID access |
+| **ROS 2 · ros2cli** · [#1257](https://github.com/ros2/ros2cli/pull/1257) | Interface comment filtering |
+| **ROS 2 · rmw_cyclonedds** · [#591](https://github.com/ros2/rmw_cyclonedds/pull/591) · [#590](https://github.com/ros2/rmw_cyclonedds/pull/590) | Log severity & receive-buffer diagnostics |
+| **OpenCV** · [#29487](https://github.com/opencv/opencv/pull/29487) | Calibration & projection documentation corrections |
+| **Gymnasium** · [#1618](https://github.com/Farama-Foundation/Gymnasium/pull/1618) | Camera configuration in rendering |
 
-<br>
+### AI & systems tooling
 
-**🤖 Robotics & autonomous-systems middleware**
-
-- [ros-controls/ros2_control #3454](https://github.com/ros-controls/ros2_control/pull/3454) — guard `update_rate` against modulo-by-zero UB
-- [eclipse-cyclonedds/cyclonedds #2425](https://github.com/eclipse-cyclonedds/cyclonedds/pull/2425) — restore signal mask when `pthread_create` fails
-- [eclipse-iceoryx/iceoryx2 #1818](https://github.com/eclipse-iceoryx/iceoryx2/pull/1818) — add `node_id()` getter to C++ `NodeState`
-- [ros2/ros2cli #1257](https://github.com/ros2/ros2cli/pull/1257) — `interface show --no-comments` stops leaking comments
-- [ros2/rmw_cyclonedds #591](https://github.com/ros2/rmw_cyclonedds/pull/591) — downgrade noisy type-hash parse log to DEBUG
-- [ros2/rmw_cyclonedds #590](https://github.com/ros2/rmw_cyclonedds/pull/590) — warn when `net.core.rmem_max` is below CycloneDDS minimum
-
-**🧠 Embodied AI & reinforcement learning**
-
-- [huggingface/trl #6439](https://github.com/huggingface/trl/pull/6439) — GRPO truncated-completion loss normalization
-- [OpenRLHF/OpenRLHF #1261](https://github.com/OpenRLHF/OpenRLHF/pull/1261) — Qwen3.5 ZeRO-3 frozen-weight detection
-- [Farama-Foundation/Gymnasium #1618](https://github.com/Farama-Foundation/Gymnasium/pull/1618) — `default_camera_config` render fix
-- [huggingface/trl #6348](https://github.com/huggingface/trl/pull/6348) — DPO/KTO ref-log-prob `FileNotFoundError`
-
-**⚡ AI systems & inference infrastructure**
-
-- [vllm-project/vllm #48153](https://github.com/vllm-project/vllm/pull/48153) — migrate Mistral Large 3 to AutoWeightsLoader
-- [deepspeedai/DeepSpeed #8154](https://github.com/deepspeedai/DeepSpeed/pull/8154) — repeated gradient scaling across pipeline stages
-- [deepspeedai/DeepSpeed #8144](https://github.com/deepspeedai/DeepSpeed/pull/8144) — ZeRO-3 hooks for attribute-delegating modules
-- [NVIDIA/cccl #9785](https://github.com/NVIDIA/cccl/pull/9785) — `cuda::std::byteswap` via `__builtin_bswapg`
-- [Comfy-Org/comfy-angle #6](https://github.com/Comfy-Org/comfy-angle/pull/6) — build headless Linux ANGLE wheels without X11, Wayland, or GBM dependencies
-- [NVIDIA/OSMO #1211](https://github.com/NVIDIA/OSMO/pull/1211) — use default or IRSA S3 endpoints when validating ambient credentials
-
-**🧪 AI agents & research automation**
-
-- [langchain-ai/langchain #38765](https://github.com/langchain-ai/langchain/pull/38765) — preserve empty Anthropic thinking blocks during streamed signature replay
-- [wanshuiyin/Auto-claude-code-research-in-sleep #360](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/pull/360) — default to provenance-checked native cross-model review
-
-**👁️ 3D & computer-vision perception**
-
-- [opencv/opencv #29487](https://github.com/opencv/opencv/pull/29487) — calibration docs, `decomposeProjectionMatrix`, `convertMaps` claims
-
-**🛠️ Other engineering contributions**
-
-- [nautechsystems/nautilus_trader #4443](https://github.com/nautechsystems/nautilus_trader/pull/4443) — consolidation data loss with single-file windows
-- [rust-lang/cargo #17203](https://github.com/rust-lang/cargo/pull/17203) — race in `cargo_compile_with_invalid_code_in_deps`
-- [duckdb/duckdb #23773](https://github.com/duckdb/duckdb/pull/23773) — VARCHAR→DECIMAL scientific-notation rounding
-- [biomejs/biome #10915](https://github.com/biomejs/biome/pull/10915) — `noNegationInEqualityCheck` lint rule
-- [BishopFox/sliver #2286](https://github.com/BishopFox/sliver/pull/2286) — prevent UA leak on proxy CONNECT
-- [Pennyw0rth/NetExec #1311](https://github.com/Pennyw0rth/NetExec/pull/1311) — add `get_keys` fallback to prevent `export keys` crash
-- [Velocidex/velociraptor #4921](https://github.com/Velocidex/velociraptor/pull/4921) — missing columns in stateful shell ack rows
-- [vyperlang/vyper #5185](https://github.com/vyperlang/vyper/pull/5185) — reject bare `await` keyword
-- [conda/conda #16391](https://github.com/conda/conda/pull/16391) — type hints and docstrings
-- [ccxt/ccxt #29192](https://github.com/ccxt/ccxt/pull/29192) — Backpack ticker percentage normalization
-- [rsheftel/pandas_market_calendars #469](https://github.com/rsheftel/pandas_market_calendars/pull/469) — CME Energy/Metals early closes 2026
-- [fullpage-lab/PatchWing #3](https://github.com/fullpage-lab/PatchWing/pull/3) — portable refactor with bilingual docs
-- [fullpage-lab/PatchWing #1](https://github.com/fullpage-lab/PatchWing/pull/1) — P0 audit fixes (DB paths, NameError crash)
-- [Unclecheng-li/poc-lab #21](https://github.com/Unclecheng-li/poc-lab/pull/21) — BUILD.md for Januscape PoC kernel module
-- [Unclecheng-li/poc-lab #20](https://github.com/Unclecheng-li/poc-lab/pull/20) — standard `.gitignore` patterns
-
-</details>
+| Project · merged PRs | Contribution |
+|---|---|
+| **vLLM** · [#48153](https://github.com/vllm-project/vllm/pull/48153) | Mistral Large 3 weight loading |
+| **DeepSpeed** · [#8154](https://github.com/deepspeedai/DeepSpeed/pull/8154) · [#8144](https://github.com/deepspeedai/DeepSpeed/pull/8144) | Pipeline gradient scaling & ZeRO-3 hooks |
+| **LangChain** · [#38765](https://github.com/langchain-ai/langchain/pull/38765) | Anthropic thinking-stream replay |
+| **Hugging Face TRL** · [#6439](https://github.com/huggingface/trl/pull/6439) · [#6348](https://github.com/huggingface/trl/pull/6348) | GRPO loss normalization & DPO/KTO reference caching |
+| **OpenRLHF** · [#1261](https://github.com/OpenRLHF/OpenRLHF/pull/1261) | Qwen3.5 frozen weights under ZeRO-3 |
+| **NVIDIA CCCL** · [#9785](https://github.com/NVIDIA/cccl/pull/9785) | Compiler builtin for CUDA byteswap |
+| **NVIDIA OSMO** · [#1211](https://github.com/NVIDIA/OSMO/pull/1211) | S3 validation endpoint handling |
+| **Rust Cargo** · [#17203](https://github.com/rust-lang/cargo/pull/17203) | Compiler-test race fix |
 
 ---
 

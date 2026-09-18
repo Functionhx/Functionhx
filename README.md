@@ -6,11 +6,16 @@ English · [简体中文](https://github.com/Functionhx/Functionhx/blob/zh-CN/RE
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=21&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=760&lines=Building+robots+that+see%2C+localize%2C+understand%2C+and+act;Building+systems+that+perceive%2C+reason%2C+and+move;3DGS+%C2%B7+Embodied+AI+%C2%B7+Autonomous+Systems+%C2%B7+Open+Source)](https://git.io/typing-svg)
 
+<p align="center">
+  <a href="https://functionhx.github.io/">
+    <img src="./profile/website.svg" width="460" alt="Visit my personal website — functionhx.github.io" />
+  </a>
+</p>
+
 [![Followers](https://img.shields.io/github/followers/Functionhx?style=flat-square&logo=github&label=Followers&color=blue)](https://github.com/Functionhx?tab=followers)
 [![Stars](https://img.shields.io/github/stars/Functionhx?affiliations=OWNER&style=flat-square&logo=github&label=Stars&color=yellow)](https://github.com/Functionhx?tab=repositories)
 ![Profile Views](https://komarev.com/ghpvc/?username=Functionhx&style=flat-square&label=Profile%20Views&color=blueviolet)
 
-[![Website](https://img.shields.io/badge/Website-functionhx.github.io-0A66C2?style=flat-square&logo=googlechrome&logoColor=white)](https://functionhx.github.io/)
 [![Email](https://img.shields.io/badge/Email-functionhx%40gmail.com-334155?style=flat-square&logo=gmail&logoColor=white)](mailto:functionhx@gmail.com)
 
 </div>

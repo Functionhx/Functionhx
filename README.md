@@ -6,11 +6,7 @@ English · [简体中文](https://github.com/Functionhx/Functionhx/blob/zh-CN/RE
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=21&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=760&lines=From+perception+and+planning+to+real-time+control;Co-designing+algorithms%2C+software%2C+and+hardware;SLAM+%C2%B7+3DGS+%C2%B7+Embodied+AI+%C2%B7+Robotics+Infrastructure)](https://git.io/typing-svg)
 
-<p align="center">
-  <a href="https://functionhx.github.io/">
-    <img src="./profile/website.svg" width="460" alt="Visit my personal website — functionhx.github.io" />
-  </a>
-</p>
+<h2><a href="https://functionhx.github.io/">Personal Website ↗</a></h2>
 
 [![Followers](https://img.shields.io/github/followers/Functionhx?style=flat-square&logo=github&label=Followers&color=blue)](https://github.com/Functionhx?tab=followers)
 [![Stars](https://img.shields.io/github/stars/Functionhx?affiliations=OWNER&style=flat-square&logo=github&label=Stars&color=yellow)](https://github.com/Functionhx?tab=repositories)
@@ -63,7 +59,7 @@ I work across algorithms, software, and hardware to turn robotics research into 
 
 ## Open-Source Contributions
 
-Selected contributions across **15 projects · 18 merged PRs**.
+**34 merged upstream PRs** in total. Selected below: **15 projects · 18 PRs**.
 
 ### Robotics & perception
 
@@ -89,6 +85,43 @@ Selected contributions across **15 projects · 18 merged PRs**.
 | **NVIDIA CCCL** · [#9785](https://github.com/NVIDIA/cccl/pull/9785) | Compiler builtin for CUDA byteswap |
 | **NVIDIA OSMO** · [#1211](https://github.com/NVIDIA/OSMO/pull/1211) | S3 validation endpoint handling |
 | **Rust Cargo** · [#17203](https://github.com/rust-lang/cargo/pull/17203) | Compiler-test race fix |
+
+<details>
+<summary><b>View all 34 merged PRs · 29 repositories</b></summary>
+
+| Project | Merged PRs & contributions |
+|---|---|
+| **[Biome](https://github.com/biomejs/biome)** | [#10915](https://github.com/biomejs/biome/pull/10915) — `noNegationInEqualityCheck` lint rule |
+| **[Sliver](https://github.com/BishopFox/sliver)** | [#2286](https://github.com/BishopFox/sliver/pull/2286) — prevent UA leak on proxy CONNECT |
+| **[CCXT](https://github.com/ccxt/ccxt)** | [#29192](https://github.com/ccxt/ccxt/pull/29192) — Backpack ticker percentage normalization |
+| **[Comfy-Org / comfy-angle](https://github.com/Comfy-Org/comfy-angle)** | [#6](https://github.com/Comfy-Org/comfy-angle/pull/6) — build headless Linux ANGLE wheels without X11, Wayland, or GBM dependencies |
+| **[Conda](https://github.com/conda/conda)** | [#16391](https://github.com/conda/conda/pull/16391) — type hints and docstrings |
+| **[DeepSpeed](https://github.com/deepspeedai/DeepSpeed)** | [#8154](https://github.com/deepspeedai/DeepSpeed/pull/8154) — repeated gradient scaling across pipeline stages<br>[#8144](https://github.com/deepspeedai/DeepSpeed/pull/8144) — ZeRO-3 hooks for attribute-delegating modules |
+| **[DuckDB](https://github.com/duckdb/duckdb)** | [#23773](https://github.com/duckdb/duckdb/pull/23773) — VARCHAR→DECIMAL scientific-notation rounding |
+| **[CycloneDDS](https://github.com/eclipse-cyclonedds/cyclonedds)** | [#2425](https://github.com/eclipse-cyclonedds/cyclonedds/pull/2425) — restore signal mask when `pthread_create` fails |
+| **[iceoryx2](https://github.com/eclipse-iceoryx/iceoryx2)** | [#1818](https://github.com/eclipse-iceoryx/iceoryx2/pull/1818) — add `node_id()` getter to C++ `NodeState` |
+| **[Gymnasium](https://github.com/Farama-Foundation/Gymnasium)** | [#1618](https://github.com/Farama-Foundation/Gymnasium/pull/1618) — `default_camera_config` render fix |
+| **[PatchWing](https://github.com/fullpage-lab/PatchWing)** | [#3](https://github.com/fullpage-lab/PatchWing/pull/3) — portable refactor with bilingual docs<br>[#1](https://github.com/fullpage-lab/PatchWing/pull/1) — P0 audit fixes (DB paths, NameError crash) |
+| **[Hugging Face TRL](https://github.com/huggingface/trl)** | [#6439](https://github.com/huggingface/trl/pull/6439) — GRPO truncated-completion loss normalization<br>[#6348](https://github.com/huggingface/trl/pull/6348) — DPO/KTO ref-log-prob `FileNotFoundError` |
+| **[LangChain](https://github.com/langchain-ai/langchain)** | [#38765](https://github.com/langchain-ai/langchain/pull/38765) — preserve empty Anthropic thinking blocks during streamed signature replay |
+| **[NautilusTrader](https://github.com/nautechsystems/nautilus_trader)** | [#4443](https://github.com/nautechsystems/nautilus_trader/pull/4443) — consolidation data loss with single-file windows |
+| **[NVIDIA CCCL](https://github.com/NVIDIA/cccl)** | [#9785](https://github.com/NVIDIA/cccl/pull/9785) — `cuda::std::byteswap` via `__builtin_bswapg` |
+| **[NVIDIA OSMO](https://github.com/NVIDIA/OSMO)** | [#1211](https://github.com/NVIDIA/OSMO/pull/1211) — use default or IRSA S3 endpoints when validating ambient credentials |
+| **[OpenCV](https://github.com/opencv/opencv)** | [#29487](https://github.com/opencv/opencv/pull/29487) — calibration docs, `decomposeProjectionMatrix`, `convertMaps` claims |
+| **[OpenRLHF](https://github.com/OpenRLHF/OpenRLHF)** | [#1261](https://github.com/OpenRLHF/OpenRLHF/pull/1261) — Qwen3.5 ZeRO-3 frozen-weight detection |
+| **[NetExec](https://github.com/Pennyw0rth/NetExec)** | [#1311](https://github.com/Pennyw0rth/NetExec/pull/1311) — add `get_keys` fallback to prevent `export keys` crash |
+| **[ros2_control](https://github.com/ros-controls/ros2_control)** | [#3454](https://github.com/ros-controls/ros2_control/pull/3454) — guard `update_rate` against modulo-by-zero UB |
+| **[ROS 2 / rmw_cyclonedds](https://github.com/ros2/rmw_cyclonedds)** | [#591](https://github.com/ros2/rmw_cyclonedds/pull/591) — downgrade noisy type-hash parse log to DEBUG<br>[#590](https://github.com/ros2/rmw_cyclonedds/pull/590) — warn when `net.core.rmem_max` is below CycloneDDS minimum |
+| **[ROS 2 / ros2cli](https://github.com/ros2/ros2cli)** | [#1257](https://github.com/ros2/ros2cli/pull/1257) — `interface show --no-comments` stops leaking comments |
+| **[pandas_market_calendars](https://github.com/rsheftel/pandas_market_calendars)** | [#469](https://github.com/rsheftel/pandas_market_calendars/pull/469) — CME Energy/Metals early closes 2026 |
+| **[Rust Cargo](https://github.com/rust-lang/cargo)** | [#17203](https://github.com/rust-lang/cargo/pull/17203) — race in `cargo_compile_with_invalid_code_in_deps` |
+| **[poc-lab](https://github.com/Unclecheng-li/poc-lab)** | [#21](https://github.com/Unclecheng-li/poc-lab/pull/21) — BUILD.md for Januscape PoC kernel module<br>[#20](https://github.com/Unclecheng-li/poc-lab/pull/20) — standard `.gitignore` patterns |
+| **[Velociraptor](https://github.com/Velocidex/velociraptor)** | [#4921](https://github.com/Velocidex/velociraptor/pull/4921) — missing columns in stateful shell ack rows |
+| **[vLLM](https://github.com/vllm-project/vllm)** | [#48153](https://github.com/vllm-project/vllm/pull/48153) — migrate Mistral Large 3 to AutoWeightsLoader |
+| **[Vyper](https://github.com/vyperlang/vyper)** | [#5185](https://github.com/vyperlang/vyper/pull/5185) — reject bare `await` keyword |
+| **[ARIS](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep)** | [#360](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/pull/360) — default to provenance-checked native cross-model review |
+
+</details>
 
 ---
 

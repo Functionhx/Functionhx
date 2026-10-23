@@ -59,7 +59,7 @@ I work across algorithms, software, and hardware to turn robotics research into 
 
 ## Open-Source Contributions
 
-**34 merged upstream PRs** in total. Selected below: **15 projects · 18 PRs**.
+**35 merged upstream PRs** in total. Selected below: **15 projects · 19 PRs**.
 
 ### AI & systems tooling
 
@@ -84,10 +84,10 @@ I work across algorithms, software, and hardware to turn robotics research into 
 | **ROS 2 · ros2cli** · [#1257](https://github.com/ros2/ros2cli/pull/1257) | Interface comment filtering |
 | **ROS 2 · rmw_cyclonedds** · [#591](https://github.com/ros2/rmw_cyclonedds/pull/591) · [#590](https://github.com/ros2/rmw_cyclonedds/pull/590) | Log severity & receive-buffer diagnostics |
 | **OpenCV** · [#29487](https://github.com/opencv/opencv/pull/29487) | Calibration & projection documentation corrections |
-| **Gymnasium** · [#1618](https://github.com/Farama-Foundation/Gymnasium/pull/1618) | Camera configuration in rendering |
+| **Gymnasium** · [#1620](https://github.com/Farama-Foundation/Gymnasium/pull/1620) · [#1618](https://github.com/Farama-Foundation/Gymnasium/pull/1618) | Strict core type hints & camera configuration in rendering |
 
 <details>
-<summary><b>View all 34 merged PRs · 29 repositories</b></summary>
+<summary><b>View all 35 merged PRs · 29 repositories</b></summary>
 
 | Project | Merged PRs & contributions |
 |---|---|
@@ -100,7 +100,7 @@ I work across algorithms, software, and hardware to turn robotics research into 
 | **[DuckDB](https://github.com/duckdb/duckdb)** | [#23773](https://github.com/duckdb/duckdb/pull/23773) — VARCHAR→DECIMAL scientific-notation rounding |
 | **[CycloneDDS](https://github.com/eclipse-cyclonedds/cyclonedds)** | [#2425](https://github.com/eclipse-cyclonedds/cyclonedds/pull/2425) — restore signal mask when `pthread_create` fails |
 | **[iceoryx2](https://github.com/eclipse-iceoryx/iceoryx2)** | [#1818](https://github.com/eclipse-iceoryx/iceoryx2/pull/1818) — add `node_id()` getter to C++ `NodeState` |
-| **[Gymnasium](https://github.com/Farama-Foundation/Gymnasium)** | [#1618](https://github.com/Farama-Foundation/Gymnasium/pull/1618) — `default_camera_config` render fix |
+| **[Gymnasium](https://github.com/Farama-Foundation/Gymnasium)** | [#1620](https://github.com/Farama-Foundation/Gymnasium/pull/1620) — strict type hints for `core.py`, `space.py`, `box.py`<br>[#1618](https://github.com/Farama-Foundation/Gymnasium/pull/1618) — `default_camera_config` render fix |
 | **[PatchWing](https://github.com/fullpage-lab/PatchWing)** | [#3](https://github.com/fullpage-lab/PatchWing/pull/3) — portable refactor with bilingual docs<br>[#1](https://github.com/fullpage-lab/PatchWing/pull/1) — P0 audit fixes (DB paths, NameError crash) |
 | **[Hugging Face TRL](https://github.com/huggingface/trl)** | [#6439](https://github.com/huggingface/trl/pull/6439) — GRPO truncated-completion loss normalization<br>[#6348](https://github.com/huggingface/trl/pull/6348) — DPO/KTO ref-log-prob `FileNotFoundError` |
 | **[LangChain](https://github.com/langchain-ai/langchain)** | [#38765](https://github.com/langchain-ai/langchain/pull/38765) — preserve empty Anthropic thinking blocks during streamed signature replay |

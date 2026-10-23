@@ -59,7 +59,7 @@ Point-LIO 的 batch-wise 扩展，引入窗口内运动去畸变、批量 EKF �
 
 ## 开源贡献
 
-累计 **34 个已合并 PR**；下方精选 **15 个项目 · 18 个 PR**。
+累计 **35 个已合并 PR**；下方精选 **15 个项目 · 19 个 PR**。
 
 ### AI 与系统工具
 
@@ -84,10 +84,10 @@ Point-LIO 的 batch-wise 扩展，引入窗口内运动去畸变、批量 EKF �
 | **ROS 2 · ros2cli** · [#1257](https://github.com/ros2/ros2cli/pull/1257) | 接口定义的注释过滤 |
 | **ROS 2 · rmw_cyclonedds** · [#591](https://github.com/ros2/rmw_cyclonedds/pull/591) · [#590](https://github.com/ros2/rmw_cyclonedds/pull/590) | 日志级别调整与接收缓冲区诊断 |
 | **OpenCV** · [#29487](https://github.com/opencv/opencv/pull/29487) | 标定与投影相关文档修正 |
-| **Gymnasium** · [#1618](https://github.com/Farama-Foundation/Gymnasium/pull/1618) | 渲染相机配置修复 |
+| **Gymnasium** · [#1620](https://github.com/Farama-Foundation/Gymnasium/pull/1620) · [#1618](https://github.com/Farama-Foundation/Gymnasium/pull/1618) | 核心模块严格类型标注与渲染相机配置修复 |
 
 <details>
-<summary><b>查看全部 34 个已合并 PR · 29 个仓库</b></summary>
+<summary><b>查看全部 35 个已合并 PR · 29 个仓库</b></summary>
 
 | 项目 | 已合并 PR 与贡献内容 |
 |---|---|
@@ -100,7 +100,7 @@ Point-LIO 的 batch-wise 扩展，引入窗口内运动去畸变、批量 EKF �
 | **[DuckDB](https://github.com/duckdb/duckdb)** | [#23773](https://github.com/duckdb/duckdb/pull/23773) — VARCHAR→DECIMAL 科学计数法舍入 |
 | **[CycloneDDS](https://github.com/eclipse-cyclonedds/cyclonedds)** | [#2425](https://github.com/eclipse-cyclonedds/cyclonedds/pull/2425) — `pthread_create` 失败时恢复信号掩码 |
 | **[iceoryx2](https://github.com/eclipse-iceoryx/iceoryx2)** | [#1818](https://github.com/eclipse-iceoryx/iceoryx2/pull/1818) — 为 C++ `NodeState` 增加 `node_id()` getter |
-| **[Gymnasium](https://github.com/Farama-Foundation/Gymnasium)** | [#1618](https://github.com/Farama-Foundation/Gymnasium/pull/1618) — `default_camera_config` 渲染修复 |
+| **[Gymnasium](https://github.com/Farama-Foundation/Gymnasium)** | [#1620](https://github.com/Farama-Foundation/Gymnasium/pull/1620) — 为 `core.py`、`space.py`、`box.py` 补充严格类型标注<br>[#1618](https://github.com/Farama-Foundation/Gymnasium/pull/1618) — `default_camera_config` 渲染修复 |
 | **[PatchWing](https://github.com/fullpage-lab/PatchWing)** | [#3](https://github.com/fullpage-lab/PatchWing/pull/3) — 可移植重构与双语文档<br>[#1](https://github.com/fullpage-lab/PatchWing/pull/1) — P0 审计修复(DB 路径、NameError 崩溃) |
 | **[Hugging Face TRL](https://github.com/huggingface/trl)** | [#6439](https://github.com/huggingface/trl/pull/6439) — GRPO 截断补全的损失归一化<br>[#6348](https://github.com/huggingface/trl/pull/6348) — DPO/KTO ref-log-prob `FileNotFoundError` |
 | **[LangChain](https://github.com/langchain-ai/langchain)** | [#38765](https://github.com/langchain-ai/langchain/pull/38765) — 在流式签名回放中保留 Anthropic 的空 `thinking` 字段 |

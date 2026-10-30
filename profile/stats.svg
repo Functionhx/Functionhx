@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Yuchen Fan's GitHub Stats, Rank: A-</title>
-        <desc id="descId">Total Stars Earned: 246, Total Commits  : 1146, Total PRs: 171, Total Issues: 42, Contributed to (last year): 84</desc>
+        <desc id="descId">Total Stars Earned: 246, Total Commits  : 1145, Total PRs: 171, Total Issues: 42, Contributed to (last year): 84</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 64.17409309060874;
+        stroke-dashoffset: 64.1872176344825;
       }
     }
   
